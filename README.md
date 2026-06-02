@@ -4,9 +4,9 @@ AI-powered Filipino recipe assistant. Wala nang *"anong ulam?"* every mealtime.
 
 Built with **Flutter + Dart** — runs on **Android, iOS, at Web**.
 
-## Status: Sprint 1–2 (UI/UX scaffold) ✅
+## Status: Sprint 1–3 (UI/UX scaffold + offline fridge) ✅
 
-Walang Firebase/AI pa — mock data muna. Lahat ng screen ay navigable at gumagana.
+Walang Firebase/AI pa — mock data muna. Lahat ng screen ay navigable at gumagana. Ang fridge ay persistent na (Hive) — hindi mawawala pag-restart ng app.
 
 ### Tapos na
 - ✅ Clean architecture folder structure (`core/`, `data/`, `presentation/`)
@@ -21,9 +21,9 @@ Walang Firebase/AI pa — mock data muna. Lahat ng screen ay navigable at gumaga
 - ✅ Recipe Detail: ingredients checklist + step-by-step instructions + save
 - ✅ ADD ULAM: dynamic ingredient/step form
 - ✅ Meal Planner: weekly grid (placeholder)
+- ✅ Hive local storage: persistent fridge na nakaka-survive ng app restart
 
 ### Susunod (per Sprint Plan)
-- Sprint 3: Hive local storage para sa fridge
 - Sprint 4: 100+ seed recipes (JSON)
 - Sprint 5: AI suggestions (Gemini/OpenAI)
 - Sprint 6: Firebase + ADD ULAM image upload
@@ -38,9 +38,10 @@ lib/
 │   └── router/                     # app_router.dart (GoRouter)
 ├── data/
 │   ├── models/                     # ingredient.dart, recipe.dart
+│   ├── local/                      # Hive: ingredient_adapter.dart, local_storage.dart
 │   └── mock/                       # mock_ingredients.dart, mock_recipes.dart
 └── presentation/
-    ├── providers/                  # theme, fridge, recipe (Riverpod)
+    ├── providers/                  # theme, fridge (Hive-backed), recipe (Riverpod)
     ├── screens/                    # splash, home, fridge, discover, planner, add_ulam, recipe_detail, main_scaffold
     └── widgets/                    # time_greeting, meal_type_grid, recipe_card
 ```
@@ -65,6 +66,7 @@ flutter build web     # Web build
 ## Tech Stack
 - **Flutter** 3.38.5 / **Dart** 3.10.4
 - **flutter_riverpod** — state management
+- **hive_ce** / **hive_ce_flutter** — offline local storage (persistent fridge)
 - **go_router** — navigation
 - **google_fonts** (Poppins) — typography
 - **intl** — localization helpers
