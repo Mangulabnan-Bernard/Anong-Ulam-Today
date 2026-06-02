@@ -1,0 +1,144 @@
+{
+  "@@locale": "tl",
+  "appTitle": "Anong Ulam Today?",
+  "appTagline": "Wala nang \"anong ulam?\" every meal!",
+
+  "greetingMorning": "Magandang Umaga!",
+  "greetingAfternoon": "Magandang Hapon!",
+  "greetingEvening": "Magandang Gabi!",
+  "greetingSubMorning": "Anong masarap na almusal?",
+  "greetingSubAfternoon": "Anong ulam sa tanghalian?",
+  "greetingSubEvening": "Anong ihahain sa hapunan?",
+
+  "mealBreakfast": "Almusal",
+  "mealLunch": "Tanghalian",
+  "mealDinner": "Hapunan",
+  "mealAny": "Kahit kailan",
+  "randomTile": "Kahit Ano!",
+  "randomSheetTitle": "Kahit Ano!",
+  "viewRecipe": "Tingnan ang Recipe",
+
+  "suggestedDishes": "Mga Mungkahing Ulam",
+  "seeAll": "Lahat",
+  "addUlamCta": "Mag-ambag ng Ulam (ADD ULAM)",
+
+  "fridgeTitle": "Laman ng Ref",
+  "fridgeCount": "Meron kang {count} sangkap",
+  "@fridgeCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "fridgeEmptyTitle": "Walang laman ang ref mo",
+  "fridgeEmptyBody": "Idagdag ang mga sangkap na meron ka para makakuha ng suggestions.",
+  "addIngredient": "Magdagdag ng Sangkap",
+  "add": "Magdagdag",
+  "done": "Tapos na",
+  "searchIngredientHint": "Maghanap ng sangkap... (hal. bawang)",
+  "aiHint": "AI suggestions base sa laman ng ref mo — paparating sa Sprint 5!",
+
+  "discoverTitle": "Tuklasin",
+  "searchRecipeHint": "Maghanap ng ulam o sangkap...",
+  "filterAll": "Lahat",
+  "noRecipesFound": "Walang nahanap na ulam",
+
+  "ingredients": "Mga Sangkap",
+  "instructions": "Paraan ng Pagluluto",
+  "optional": "optional",
+  "cookNow": "Lutuin na!",
+  "cookSnack": "Enjoy! Kumain ka nang masarap",
+  "recipeNotFound": "Hindi nahanap ang recipe",
+
+  "youHave": "Meron ka",
+  "youAreMissing": "Kulang",
+  "canCook": "Pwede mo nang lutuin ito!",
+  "missingCount": "Kulang ng {count}",
+  "@missingCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "haveAllIngredients": "Kumpleto — meron ka ng lahat!",
+  "cookableNow": "Pwedeng lutuin ngayon",
+  "addFridgeForMatch": "Magdagdag ng sangkap sa ref para makita kung ano ang pwede mong lutuin!",
+  "inYourFridge": "Nasa ref mo na",
+  "needToBuy": "Wala sa ref / Bibilhin",
+  "haveThisToo": "Meron pala ako nito",
+  "markedHave": "Naidagdag ang {name} sa ref mo",
+  "@markedHave": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "shoppingListTitle": "Listahan ng bibilhin para sa {dish}",
+  "@shoppingListTitle": {
+    "placeholders": { "dish": { "type": "String" } }
+  },
+  "copyList": "Kopyahin ang listahan",
+  "listCopied": "Nakopya ang listahan ng bibilhin!",
+  "allSetToCook": "Handa ka na — walang bibilhin!",
+  "tapMissingHint": "I-tap ang item kung meron ka pala nito.",
+
+  "savedTitle": "Mga Naka-save",
+  "savedEmptyTitle": "Wala ka pang naka-save",
+  "savedEmptyBody": "Pindutin ang ♥ sa kahit anong ulam para ma-save dito.",
+  "navSaved": "Saved",
+
+  "skipTutorial": "Laktawan",
+  "next": "Susunod",
+  "getStarted": "Simulan na",
+  "onboard1Title": "Anong Ulam Today?",
+  "onboard1Body": "Wala nang araw-araw na \"anong ulam?\" — tutulungan ka naming magdesisyon sa ilang segundo.",
+  "onboard2Title": "Anong laman ng ref mo?",
+  "onboard2Body": "Ilista ang mga sangkap mo at agad mong makikita kung anong ulam ang pwede mong lutuin.",
+  "onboard3Title": "Hindi makapagdesisyon?",
+  "onboard3Body": "Pindutin ang \"Kahit Ano!\" para sa random na ulam, o hayaang mag-suggest ang AI base sa ref mo.",
+
+  "swipeToDelete": "Inalis ang {name}",
+  "@swipeToDelete": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "undo": "I-undo",
+
+  "plannerTitle": "Meal Planner",
+  "plannerHint": "Planuhin ang ulam para sa buong linggo. (Full feature: Sprint 8)",
+  "plannerNoMeal": "Wala pang nakaplanong ulam",
+  "plannerAddMeal": "Magdagdag ng ulam para sa {day} — soon!",
+  "@plannerAddMeal": {
+    "placeholders": { "day": { "type": "String" } }
+  },
+
+  "addUlamTitle": "ADD ULAM",
+  "addPhoto": "Magdagdag ng Litrato",
+  "imageUploadSoon": "Image upload — Sprint 6!",
+  "dishName": "Pangalan ng Ulam",
+  "dishNameHint": "hal. Adobong Manok ni Lola",
+  "shortDescription": "Maikling Paglalarawan",
+  "dishNameRequired": "Kailangan ng pangalan",
+  "stepsLabel": "Mga Hakbang",
+  "ingredientHint": "hal. 1 kg manok",
+  "stepHint": "hal. Igisa ang bawang...",
+  "submitUlam": "I-submit ang Ulam",
+  "submitThanks": "Salamat sa ambag! Ire-review namin ito.",
+
+  "navHome": "Home",
+  "navFridge": "Ref",
+  "navDiscover": "Tuklasin",
+  "navPlanner": "Planner",
+  "navAddUlam": "Add Ulam",
+
+  "settings": "Mga Setting",
+  "language": "Wika",
+  "english": "English",
+  "tagalog": "Tagalog",
+  "theme": "Tema",
+  "themeLight": "Maliwanag",
+  "themeDark": "Madilim",
+  "themeSystem": "System",
+
+  "dayMon": "Lunes",
+  "dayTue": "Martes",
+  "dayWed": "Miyerkules",
+  "dayThu": "Huwebes",
+  "dayFri": "Biyernes",
+  "daySat": "Sabado",
+  "daySun": "Linggo",
+
+  "difficultyEasy": "Madali",
+  "difficultyMedium": "Katamtaman",
+  "difficultyHard": "Mahirap"
+}

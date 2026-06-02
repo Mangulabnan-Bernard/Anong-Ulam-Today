@@ -1,0 +1,144 @@
+{
+  "@@locale": "en",
+  "appTitle": "Anong Ulam Today?",
+  "appTagline": "No more \"what's for dinner?\" every meal!",
+
+  "greetingMorning": "Good Morning!",
+  "greetingAfternoon": "Good Afternoon!",
+  "greetingEvening": "Good Evening!",
+  "greetingSubMorning": "What's a tasty breakfast?",
+  "greetingSubAfternoon": "What's for lunch?",
+  "greetingSubEvening": "What to serve for dinner?",
+
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "mealAny": "Anytime",
+  "randomTile": "Anything!",
+  "randomSheetTitle": "Anything goes!",
+  "viewRecipe": "View Recipe",
+
+  "suggestedDishes": "Suggested Dishes",
+  "seeAll": "See all",
+  "addUlamCta": "Contribute a Recipe (ADD ULAM)",
+
+  "fridgeTitle": "Fridge Contents",
+  "fridgeCount": "You have {count} ingredients",
+  "@fridgeCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "fridgeEmptyTitle": "Your fridge is empty",
+  "fridgeEmptyBody": "Add the ingredients you have to get suggestions.",
+  "addIngredient": "Add Ingredient",
+  "add": "Add",
+  "done": "Done",
+  "searchIngredientHint": "Search ingredient... (e.g. garlic)",
+  "aiHint": "AI suggestions based on your fridge — coming in Sprint 5!",
+
+  "discoverTitle": "Discover",
+  "searchRecipeHint": "Search dish or ingredient...",
+  "filterAll": "All",
+  "noRecipesFound": "No dishes found",
+
+  "ingredients": "Ingredients",
+  "instructions": "Instructions",
+  "optional": "optional",
+  "cookNow": "Cook now!",
+  "cookSnack": "Enjoy! Eat well",
+  "recipeNotFound": "Recipe not found",
+
+  "youHave": "You have",
+  "youAreMissing": "Missing",
+  "canCook": "You can cook this!",
+  "missingCount": "Missing {count}",
+  "@missingCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "haveAllIngredients": "Complete — you have everything!",
+  "cookableNow": "Cookable now",
+  "addFridgeForMatch": "Add ingredients to your fridge to see what you can cook!",
+  "inYourFridge": "In your fridge",
+  "needToBuy": "Need to buy",
+  "haveThisToo": "I have this too",
+  "markedHave": "Added {name} to your fridge",
+  "@markedHave": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "shoppingListTitle": "Shopping list for {dish}",
+  "@shoppingListTitle": {
+    "placeholders": { "dish": { "type": "String" } }
+  },
+  "copyList": "Copy list",
+  "listCopied": "Shopping list copied!",
+  "allSetToCook": "You're all set — nothing to buy!",
+  "tapMissingHint": "Tap an item if you actually have it.",
+
+  "savedTitle": "Saved Recipes",
+  "savedEmptyTitle": "No saved recipes yet",
+  "savedEmptyBody": "Tap the ♥ on any dish to save it here.",
+  "navSaved": "Saved",
+
+  "skipTutorial": "Skip",
+  "next": "Next",
+  "getStarted": "Get Started",
+  "onboard1Title": "Anong Ulam Today?",
+  "onboard1Body": "No more daily \"what's for dinner?\" — we'll help you decide in seconds.",
+  "onboard2Title": "What's in your fridge?",
+  "onboard2Body": "List your ingredients and instantly see which dishes you can cook.",
+  "onboard3Title": "Can't decide?",
+  "onboard3Body": "Tap \"Anything!\" for a random dish, or let AI suggest based on your fridge.",
+
+  "swipeToDelete": "Removed {name}",
+  "@swipeToDelete": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "undo": "Undo",
+
+  "plannerTitle": "Meal Planner",
+  "plannerHint": "Plan your meals for the whole week. (Full feature: Sprint 8)",
+  "plannerNoMeal": "No meal planned yet",
+  "plannerAddMeal": "Add a meal for {day} — soon!",
+  "@plannerAddMeal": {
+    "placeholders": { "day": { "type": "String" } }
+  },
+
+  "addUlamTitle": "ADD ULAM",
+  "addPhoto": "Add a Photo",
+  "imageUploadSoon": "Image upload — Sprint 6!",
+  "dishName": "Dish Name",
+  "dishNameHint": "e.g. Lola's Chicken Adobo",
+  "shortDescription": "Short Description",
+  "dishNameRequired": "Name is required",
+  "stepsLabel": "Steps",
+  "ingredientHint": "e.g. 1 kg chicken",
+  "stepHint": "e.g. Saute the garlic...",
+  "submitUlam": "Submit Recipe",
+  "submitThanks": "Thanks for sharing! We'll review it.",
+
+  "navHome": "Home",
+  "navFridge": "Fridge",
+  "navDiscover": "Discover",
+  "navPlanner": "Planner",
+  "navAddUlam": "Add Ulam",
+
+  "settings": "Settings",
+  "language": "Language",
+  "english": "English",
+  "tagalog": "Tagalog",
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+
+  "dayMon": "Monday",
+  "dayTue": "Tuesday",
+  "dayWed": "Wednesday",
+  "dayThu": "Thursday",
+  "dayFri": "Friday",
+  "daySat": "Saturday",
+  "daySun": "Sunday",
+
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard"
+}

@@ -1,0 +1,31 @@
+import '../models/ingredient.dart';
+
+/// A starter list of common Filipino kitchen ingredients for search.
+const List<Ingredient> kCommonIngredients = [
+  Ingredient(id: 'bawang', name: 'Bawang', nameEn: 'Garlic', category: IngredientCategory.pampalasa, emoji: '🧄'),
+  Ingredient(id: 'sibuyas', name: 'Sibuyas', nameEn: 'Onion', category: IngredientCategory.pampalasa, emoji: '🧅'),
+  Ingredient(id: 'kamatis', name: 'Kamatis', nameEn: 'Tomato', category: IngredientCategory.gulay, emoji: '🍅'),
+  Ingredient(id: 'luya', name: 'Luya', nameEn: 'Ginger', category: IngredientCategory.pampalasa, emoji: '🫚'),
+  Ingredient(id: 'manok', name: 'Manok', nameEn: 'Chicken', category: IngredientCategory.karne, emoji: '🍗'),
+  Ingredient(id: 'baboy', name: 'Baboy', nameEn: 'Pork', category: IngredientCategory.karne, emoji: '🥩'),
+  Ingredient(id: 'baka', name: 'Baka', nameEn: 'Beef', category: IngredientCategory.karne, emoji: '🐄'),
+  Ingredient(id: 'isda', name: 'Isda', nameEn: 'Fish', category: IngredientCategory.isda, emoji: '🐟'),
+  Ingredient(id: 'hipon', name: 'Hipon', nameEn: 'Shrimp', category: IngredientCategory.isda, emoji: '🦐'),
+  Ingredient(id: 'itlog', name: 'Itlog', nameEn: 'Egg', category: IngredientCategory.iba, emoji: '🥚'),
+  Ingredient(id: 'kanin', name: 'Kanin', nameEn: 'Rice', category: IngredientCategory.pananghalian, emoji: '🍚'),
+  Ingredient(id: 'toyo', name: 'Toyo', nameEn: 'Soy sauce', category: IngredientCategory.pampalasa, emoji: '🫙'),
+  Ingredient(id: 'suka', name: 'Suka', nameEn: 'Vinegar', category: IngredientCategory.pampalasa, emoji: '🧴'),
+  Ingredient(id: 'patis', name: 'Patis', nameEn: 'Fish sauce', category: IngredientCategory.pampalasa, emoji: '🫙'),
+  Ingredient(id: 'gata', name: 'Gata', nameEn: 'Coconut milk', category: IngredientCategory.iba, emoji: '🥥'),
+  Ingredient(id: 'kalabasa', name: 'Kalabasa', nameEn: 'Squash', category: IngredientCategory.gulay, emoji: '🎃'),
+  Ingredient(id: 'sitaw', name: 'Sitaw', nameEn: 'String beans', category: IngredientCategory.gulay, emoji: '🫛'),
+  Ingredient(id: 'talong', name: 'Talong', nameEn: 'Eggplant', category: IngredientCategory.gulay, emoji: '🍆'),
+  Ingredient(id: 'kangkong', name: 'Kangkong', nameEn: 'Water spinach', category: IngredientCategory.gulay, emoji: '🥬'),
+  Ingredient(id: 'patatas', name: 'Patatas', nameEn: 'Potato', category: IngredientCategory.gulay, emoji: '🥔'),
+  Ingredient(id: 'karot', name: 'Karot', nameEn: 'Carrot', category: IngredientCategory.gulay, emoji: '🥕'),
+  Ingredient(id: 'sili', name: 'Sili', nameEn: 'Chili', category: IngredientCategory.pampalasa, emoji: '🌶️'),
+  Ingredient(id: 'asin', name: 'Asin', nameEn: 'Salt', category: IngredientCategory.pampalasa, emoji: '🧂'),
+  Ingredient(id: 'paminta', name: 'Paminta', nameEn: 'Pepper', category: IngredientCategory.pampalasa, emoji: '⚫'),
+  Ingredient(id: 'mantika', name: 'Mantika', nameEn: 'Cooking oil', category: IngredientCategory.iba, emoji: '🛢️'),
+  Ingredient(id: 'laurel', name: 'Laurel', nameEn: 'Bay leaf', category: IngredientCategory.pampalasa, emoji: '🍃'),
+];
