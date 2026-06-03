@@ -4,9 +4,9 @@ AI-powered Filipino recipe assistant. Wala nang *"anong ulam?"* every mealtime.
 
 Built with **Flutter + Dart** — runs on **Android, iOS, at Web**.
 
-## Status: Sprint 1–3 (UI/UX scaffold + offline fridge) ✅
+## Status: Sprint 1–4 (UI/UX scaffold + offline fridge + recipe catalog) ✅
 
-Sprint 1–3 tapos na. Lahat ng screen ay navigable at gumagana, at **persistent na ang fridge** (Hive local storage) — hindi mawawala ang ingredients pag-restart ng app. Recipes ay mock data pa rin; wala pang Firebase/AI (paparating sa Sprint 4–6).
+Sprint 1–4 tapos na. Lahat ng screen ay navigable at gumagana, **persistent ang fridge** (Hive local storage), at may **127 seed recipes** na nilo-load mula sa bundled JSON. Wala pang Firebase/AI — paparating sa Sprint 5–6.
 
 ### Tapos na
 - ✅ Clean architecture folder structure (`core/`, `data/`, `presentation/`)
@@ -22,9 +22,9 @@ Sprint 1–3 tapos na. Lahat ng screen ay navigable at gumagana, at **persistent
 - ✅ ADD ULAM: dynamic ingredient/step form
 - ✅ Meal Planner: weekly grid (placeholder)
 - ✅ Hive local storage: persistent fridge na nakaka-survive ng app restart
+- ✅ Recipe catalog: 127 Filipino recipes mula sa JSON asset (loader + fallback)
 
 ### Susunod (per Sprint Plan)
-- Sprint 4: 100+ seed recipes (JSON)
 - Sprint 5: AI suggestions (Gemini/OpenAI)
 - Sprint 6: Firebase + ADD ULAM image upload
 
@@ -32,18 +32,21 @@ Sprint 1–3 tapos na. Lahat ng screen ay navigable at gumagana, at **persistent
 
 ```
 lib/
-├── main.dart                       # App entry (ProviderScope + MaterialApp.router)
+├── main.dart                       # App entry (init Hive + load recipes, ProviderScope)
 ├── core/
 │   ├── theme/                      # app_colors.dart, app_theme.dart
 │   └── router/                     # app_router.dart (GoRouter)
 ├── data/
-│   ├── models/                     # ingredient.dart, recipe.dart
-│   ├── local/                      # Hive: ingredient_adapter.dart, local_storage.dart
-│   └── mock/                       # mock_ingredients.dart, mock_recipes.dart
+│   ├── models/                     # ingredient.dart, recipe.dart (+ fromJson)
+│   ├── local/                      # Hive + recipe_loader.dart (JSON → Recipe)
+│   └── mock/                       # mock_ingredients.dart, mock_recipes.dart (fallback)
 └── presentation/
     ├── providers/                  # theme, fridge (Hive-backed), recipe (Riverpod)
     ├── screens/                    # splash, home, fridge, discover, planner, add_ulam, recipe_detail, main_scaffold
     └── widgets/                    # time_greeting, meal_type_grid, recipe_card
+
+assets/
+└── data/recipes.json               # 127 Filipino seed recipes (Sprint 4)
 ```
 
 ## Pagpapatakbo

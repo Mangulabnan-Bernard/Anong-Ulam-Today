@@ -1,0 +1,3371 @@
+{
+  "_comment": "Anong Ulam Today? — Sprint 4 seed catalog of Filipino dishes. mealTypes: breakfast|lunch|dinner|any. difficulty: easy|medium|hard.",
+  "recipes": [
+    {
+      "id": "rec_chicken_adobo",
+      "title": "Chicken Adobo",
+      "description": "Ang klasikong putaheng Pinoy — maasim, maalat, at masarap.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍗",
+      "rating": 4.8,
+      "totalSaves": 1240,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Toyo", "quantity": "1/2 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Laurel", "quantity": "3 dahon"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "Igisa ang dinurog na bawang sa mantika.",
+        "Idagdag ang manok at lutuin hanggang mag-brown.",
+        "Ibuhos ang toyo, suka, laurel, at paminta.",
+        "Pakuluan, tapos hinaan ang apoy. Lutuin 30 minuto.",
+        "Hayaang lumapot ang sarsa. Ihain na may kanin!"
+      ]
+    },
+    {
+      "id": "rec_pork_adobo",
+      "title": "Pork Adobo",
+      "description": "Baboy na inadobo sa toyo at suka — lutong-bahay favorite.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 50,
+      "emoji": "🥩",
+      "rating": 4.7,
+      "totalSaves": 980,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg"},
+        {"name": "Toyo", "quantity": "1/2 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "8 cloves"},
+        {"name": "Laurel", "quantity": "3 dahon"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "Igisa ang bawang hanggang mabango.",
+        "Idagdag ang baboy, lutuin hanggang mag-brown.",
+        "Ilagay ang toyo, suka, laurel, at paminta.",
+        "Pakuluan tapos hinaan. Lutuin 40 minuto hanggang lumambot.",
+        "Hayaang lumapot ang sarsa bago ihain."
+      ]
+    },
+    {
+      "id": "rec_adobong_pusit",
+      "title": "Adobong Pusit",
+      "description": "Pusit na inadobo sa sariling tinta — malinamnam.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 35,
+      "emoji": "🦑",
+      "rating": 4.4,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pusit", "quantity": "1/2 kg"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Toyo", "quantity": "2 kutsara"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sili", "quantity": "2 piraso", "optional": true}
+      ],
+      "instructions": [
+        "Linisin ang pusit, itabi ang tinta.",
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang pusit at tinta, haluin.",
+        "Ilagay ang suka at toyo, huwag haluin agad.",
+        "Pakuluan ng 10 minuto. Huwag i-overcook para hindi tumigas."
+      ]
+    },
+    {
+      "id": "rec_sinigang_baboy",
+      "title": "Sinigang na Baboy",
+      "description": "Maasim na sabaw na perpekto sa maulan na araw.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🍲",
+      "rating": 4.9,
+      "totalSaves": 2100,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Talong", "quantity": "2 piraso"},
+        {"name": "Kangkong", "quantity": "1 bigkis"},
+        {"name": "Sampalok", "quantity": "1 sachet mix"}
+      ],
+      "instructions": [
+        "Pakuluan ang baboy hanggang lumambot.",
+        "Idagdag ang kamatis at sibuyas.",
+        "Ilagay ang sampalok mix o sinigang mix.",
+        "Idagdag ang mga gulay ayon sa tagal ng pagkaluto.",
+        "Timplahan ng patis. Ihain na mainit!"
+      ]
+    },
+    {
+      "id": "rec_sinigang_hipon",
+      "title": "Sinigang na Hipon",
+      "description": "Maasim na sabaw na may sariwang hipon — light pero masarap.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🦐",
+      "rating": 4.7,
+      "totalSaves": 760,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Hipon", "quantity": "1/2 kg"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Labanos", "quantity": "1 piraso"},
+        {"name": "Kangkong", "quantity": "1 bigkis"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Sampalok", "quantity": "1 sachet mix"}
+      ],
+      "instructions": [
+        "Pakuluan ang tubig na may kamatis at sibuyas.",
+        "Ilagay ang sinigang mix.",
+        "Idagdag ang labanos at sitaw.",
+        "Ilagay ang hipon at kangkong, lutuin 5 minuto.",
+        "Timplahan ng patis. Ihain agad."
+      ]
+    },
+    {
+      "id": "rec_sinigang_bangus",
+      "title": "Sinigang na Bangus",
+      "description": "Bangus sa maasim na sabaw ng sampalok.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🐟",
+      "rating": 4.5,
+      "totalSaves": 520,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bangus", "quantity": "1 piraso, hiniwa"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Mustasa", "quantity": "1 bigkis"},
+        {"name": "Sampalok", "quantity": "1 sachet mix"}
+      ],
+      "instructions": [
+        "Pakuluan ang tubig na may kamatis at sibuyas.",
+        "Ilagay ang sinigang mix.",
+        "Idagdag ang bangus, lutuin 8 minuto.",
+        "Ilagay ang mustasa.",
+        "Timplahan ng patis. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_nilagang_baboy",
+      "title": "Nilagang Baboy",
+      "description": "Simpleng nilaga na may malambot na baboy at gulay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 70,
+      "emoji": "🍲",
+      "rating": 4.6,
+      "totalSaves": 640,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg buto-buto"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Repolyo", "quantity": "1/2 ulo"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Saging na saba", "quantity": "2 piraso", "optional": true},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "Pakuluan ang baboy, alisin ang bula.",
+        "Ilagay ang sibuyas at paminta, lutuin 45 minuto.",
+        "Idagdag ang patatas at saging.",
+        "Ilagay ang repolyo huling-huli.",
+        "Timplahan ng asin o patis. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_nilagang_baka",
+      "title": "Nilagang Baka",
+      "description": "Mainit na sabaw ng baka na pampatanggal ng lamig.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 120,
+      "emoji": "🥩",
+      "rating": 4.7,
+      "totalSaves": 580,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baka", "quantity": "1 kg"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Repolyo", "quantity": "1/2 ulo"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Mais", "quantity": "2 piraso", "optional": true},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan ang baka hanggang lumambot (1.5 oras).",
+        "Idagdag ang sibuyas at mais.",
+        "Ilagay ang patatas.",
+        "Idagdag ang repolyo at sitaw.",
+        "Timplahan ng asin at paminta."
+      ]
+    },
+    {
+      "id": "rec_bulalo",
+      "title": "Bulalo",
+      "description": "Mayamang sabaw ng buto ng baka na may utak sa loob.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 150,
+      "emoji": "🍲",
+      "rating": 4.9,
+      "totalSaves": 1480,
+      "region": "Batangas",
+      "ingredients": [
+        {"name": "Bulalo (buto ng baka)", "quantity": "1.5 kg"},
+        {"name": "Mais", "quantity": "2 piraso"},
+        {"name": "Repolyo", "quantity": "1/2 ulo"},
+        {"name": "Pechay", "quantity": "1 bigkis"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Paminta", "quantity": "1 kutsarita buo"}
+      ],
+      "instructions": [
+        "Pakuluan ang bulalo, alisin ang bula.",
+        "Ilagay ang sibuyas at paminta, lutuin 2 oras.",
+        "Idagdag ang mais.",
+        "Ilagay ang repolyo at pechay bago ihain.",
+        "Timplahan ng asin. Ihain na napakainit."
+      ]
+    },
+    {
+      "id": "rec_tinolang_manok",
+      "title": "Tinolang Manok",
+      "description": "Manok sa malinamnam na sabaw ng luya at sayote.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍗",
+      "rating": 4.7,
+      "totalSaves": 890,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sayote", "quantity": "1 piraso"},
+        {"name": "Dahon ng sili", "quantity": "1 bigkis"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang luya, bawang, at sibuyas.",
+        "Idagdag ang manok, lutuin hanggang mag-brown.",
+        "Buhusan ng tubig, pakuluan 25 minuto.",
+        "Ilagay ang sayote, lutuin hanggang lumambot.",
+        "Idagdag ang dahon ng sili. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_kare_kare",
+      "title": "Kare-Kare",
+      "description": "Oxtail at gulay sa malapot na peanut sauce. Ihain na may bagoong.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 180,
+      "emoji": "🥜",
+      "rating": 4.8,
+      "totalSaves": 1320,
+      "region": "Pampanga",
+      "ingredients": [
+        {"name": "Buntot ng baka", "quantity": "1 kg"},
+        {"name": "Mani (peanut butter)", "quantity": "1 tasa"},
+        {"name": "Talong", "quantity": "2 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Puso ng saging", "quantity": "1 piraso"},
+        {"name": "Bagoong", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Pakuluan ang buntot hanggang lumambot (2 oras).",
+        "Igisa ang bawang at sibuyas, idagdag ang sabaw.",
+        "Ilagay ang peanut butter at ground rice, haluin.",
+        "Idagdag ang gulay isa-isa hanggang luto.",
+        "Ihain na may bagoong sa tabi."
+      ]
+    },
+    {
+      "id": "rec_kalderetang_kambing",
+      "title": "Kalderetang Kambing",
+      "description": "Maanghang at malasang kaldereta — pang-okasyon.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 120,
+      "emoji": "🐐",
+      "rating": 4.6,
+      "totalSaves": 470,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kambing", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Atay (liver spread)", "quantity": "1 lata"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang kambing, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 1.5 oras.",
+        "Ilagay ang liver spread, patatas, at karot.",
+        "Timplahan ng sili at asin. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_mechado",
+      "title": "Mechado",
+      "description": "Baka sa tomato sauce na may patatas at karot.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 90,
+      "emoji": "🥩",
+      "rating": 4.5,
+      "totalSaves": 520,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baka", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Toyo", "quantity": "3 kutsara"},
+        {"name": "Laurel", "quantity": "2 dahon"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baka, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce, toyo, at tubig.",
+        "Lutuin 1 oras hanggang lumambot.",
+        "Idagdag ang patatas at karot. Lutuin hanggang luto."
+      ]
+    },
+    {
+      "id": "rec_afritadang_manok",
+      "title": "Afritadang Manok",
+      "description": "Manok sa tomato sauce na may gulay — masustansya.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 50,
+      "emoji": "🍗",
+      "rating": 4.4,
+      "totalSaves": 430,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang manok, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 25 minuto.",
+        "Ilagay ang patatas at karot.",
+        "Idagdag ang bell pepper. Timplahan ng asin."
+      ]
+    },
+    {
+      "id": "rec_menudo",
+      "title": "Menudo",
+      "description": "Hiniwang baboy at atay sa tomato sauce.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 55,
+      "emoji": "🥘",
+      "rating": 4.5,
+      "totalSaves": 610,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg"},
+        {"name": "Atay ng baboy", "quantity": "1/4 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Pasas", "quantity": "1/4 tasa", "optional": true}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baboy, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 25 minuto.",
+        "Ilagay ang atay, patatas, at karot.",
+        "Idagdag ang pasas. Timplahan ng asin at paminta."
+      ]
+    },
+    {
+      "id": "rec_pork_caldereta",
+      "title": "Pork Caldereta",
+      "description": "Baboy na nilutong maanghang sa tomato at liver sauce.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 80,
+      "emoji": "🥘",
+      "rating": 4.6,
+      "totalSaves": 700,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Atay (liver spread)", "quantity": "1 lata"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baboy, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 50 minuto.",
+        "Ilagay ang liver spread at patatas.",
+        "Idagdag ang bell pepper at sili. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_bistek_tagalog",
+      "title": "Bistek Tagalog",
+      "description": "Baka sa toyo-kalamansi na may singkamas na sibuyas.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🧅",
+      "rating": 4.7,
+      "totalSaves": 820,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baka", "quantity": "1/2 kg, manipis na hiwa"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Kalamansi", "quantity": "5 piraso"},
+        {"name": "Sibuyas", "quantity": "2 piraso, singsing"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "I-marinate ang baka sa toyo at kalamansi 30 minuto.",
+        "Iprito ang sibuyas hanggang malambot, itabi.",
+        "Igisa ang bawang, lutuin ang baka.",
+        "Ibuhos ang marinade, pakuluan hanggang lumambot.",
+        "Lagyan ng sibuyas sa ibabaw. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_pork_sisig",
+      "title": "Pork Sisig",
+      "description": "Crispy na sisig na maanghang at may kalamansi.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🔥",
+      "rating": 4.8,
+      "totalSaves": 1560,
+      "region": "Pampanga",
+      "ingredients": [
+        {"name": "Maskara ng baboy", "quantity": "1/2 kg"},
+        {"name": "Atay ng baboy", "quantity": "1/4 kg"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "3 piraso"},
+        {"name": "Kalamansi", "quantity": "4 piraso"},
+        {"name": "Itlog", "quantity": "1 piraso", "optional": true}
+      ],
+      "instructions": [
+        "Pakuluan ang maskara hanggang lumambot, tapos ihawin.",
+        "Hiwain nang maliit ang maskara at atay.",
+        "Igisa sa mantika na may sibuyas at sili.",
+        "Timplahan ng toyo, kalamansi, at paminta.",
+        "Ihain sa mainit na plato, lagyan ng hilaw na itlog."
+      ]
+    },
+    {
+      "id": "rec_lechon_kawali",
+      "title": "Lechon Kawali",
+      "description": "Crispy sa labas, malambot sa loob — sawsaw sa lechon sauce.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 75,
+      "emoji": "🥓",
+      "rating": 4.8,
+      "totalSaves": 1190,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Liempo", "quantity": "1 kg"},
+        {"name": "Asin", "quantity": "2 kutsara"},
+        {"name": "Paminta", "quantity": "1 kutsarita"},
+        {"name": "Laurel", "quantity": "3 dahon"},
+        {"name": "Bawang", "quantity": "1 ulo"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Pakuluan ang liempo na may asin, laurel, at bawang.",
+        "Lutuin 40 minuto hanggang lumambot.",
+        "Patuyuin ang liempo nang husto.",
+        "Iprito sa maraming mantika hanggang crispy.",
+        "Hiwain at ihain na may sawsawan."
+      ]
+    },
+    {
+      "id": "rec_crispy_pata",
+      "title": "Crispy Pata",
+      "description": "Buong pata na crispy — pulutan at ulam panalo.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 90,
+      "emoji": "🍖",
+      "rating": 4.7,
+      "totalSaves": 980,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pata ng baboy", "quantity": "1 buo"},
+        {"name": "Asin", "quantity": "2 kutsara"},
+        {"name": "Paminta", "quantity": "1 kutsarita"},
+        {"name": "Laurel", "quantity": "3 dahon"},
+        {"name": "Bawang", "quantity": "1 ulo"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Pakuluan ang pata na may asin, laurel, at bawang (1 oras).",
+        "Patuyuin nang husto, ilagay sa ref para tumigas ang balat.",
+        "Iprito sa napakaraming mantika.",
+        "Iprito hanggang golden at crispy ang balat.",
+        "Ihain na may sawsawang suka."
+      ]
+    },
+    {
+      "id": "rec_pork_bbq",
+      "title": "Pork BBQ",
+      "description": "Matamis-maalat na barbecue sa stick — pang-handaan.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍢",
+      "rating": 4.7,
+      "totalSaves": 1040,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg, hiniwa"},
+        {"name": "Toyo", "quantity": "1/3 tasa"},
+        {"name": "Asukal", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Kalamansi", "quantity": "5 piraso"},
+        {"name": "Banana ketchup", "quantity": "1/4 tasa"}
+      ],
+      "instructions": [
+        "Paghaluin ang lahat ng sangkap maliban sa baboy.",
+        "I-marinate ang baboy magdamag.",
+        "Itusok sa barbecue stick.",
+        "Ihawin habang pinapahiran ng marinade.",
+        "Ihain na may suka o kanin."
+      ]
+    },
+    {
+      "id": "rec_pork_tocino",
+      "title": "Pork Tocino",
+      "description": "Matamis na inihaw-prito na baboy — almusal classic.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🥓",
+      "rating": 4.5,
+      "totalSaves": 700,
+      "region": "Pampanga",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg, manipis"},
+        {"name": "Asukal", "quantity": "1/4 tasa"},
+        {"name": "Asin", "quantity": "1 kutsara"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Mantika", "quantity": "1 kutsara"}
+      ],
+      "instructions": [
+        "I-marinate ang baboy sa asukal, asin, at bawang.",
+        "Itago sa ref ng 1-2 araw.",
+        "Iluto sa kaunting tubig hanggang matunaw.",
+        "Hayaang mag-caramelize sa sariling tubig.",
+        "Ihain na may sinangag at itlog (tosilog)."
+      ]
+    },
+    {
+      "id": "rec_beef_tapa",
+      "title": "Beef Tapa",
+      "description": "Tuyong-tuyong baka na maalat-matamis — para sa tapsilog.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🥩",
+      "rating": 4.6,
+      "totalSaves": 860,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baka", "quantity": "1/2 kg, manipis"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Asukal", "quantity": "2 kutsara"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "I-marinate ang baka sa toyo, bawang, asukal, paminta.",
+        "Itago magdamag sa ref.",
+        "Iprito sa mantika hanggang mamula.",
+        "Lutuin hanggang medyo tuyo.",
+        "Ihain na may sinangag at itlog (tapsilog)."
+      ]
+    },
+    {
+      "id": "rec_longganisa",
+      "title": "Longganisa",
+      "description": "Pinoy sausage — pwedeng matamis o garlicky.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🌭",
+      "rating": 4.5,
+      "totalSaves": 640,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Longganisa", "quantity": "6 piraso"},
+        {"name": "Tubig", "quantity": "1/2 tasa"},
+        {"name": "Mantika", "quantity": "1 kutsara"}
+      ],
+      "instructions": [
+        "Ilagay ang longganisa sa kawali na may tubig.",
+        "Pakuluan hanggang maubos ang tubig.",
+        "Hayaang mag-render ang taba.",
+        "Iprito hanggang golden brown.",
+        "Ihain na may sinangag at itlog (longsilog)."
+      ]
+    },
+    {
+      "id": "rec_embutido",
+      "title": "Embutido",
+      "description": "Pinoy meatloaf na nilala sa foil — pang-handaan.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 75,
+      "emoji": "🍖",
+      "rating": 4.4,
+      "totalSaves": 380,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg giniling"},
+        {"name": "Karot", "quantity": "1 piraso, tinadtad"},
+        {"name": "Pasas", "quantity": "1/4 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso (1 hilaw, 1 nilaga)"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Keso", "quantity": "1/4 tasa", "optional": true}
+      ],
+      "instructions": [
+        "Paghaluin ang giniling, gulay, at pampalasa.",
+        "Ilatag sa foil, lagyan ng nilagang itlog sa gitna.",
+        "Balutin nang mahigpit.",
+        "Pasingawan ng 45 minuto.",
+        "Palamigin, hiwain, at ihain. Pwedeng iprito muna."
+      ]
+    },
+    {
+      "id": "rec_igado",
+      "title": "Igado",
+      "description": "Baboy at atay sa toyo at suka — Ilocano favorite.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 55,
+      "emoji": "🥘",
+      "rating": 4.4,
+      "totalSaves": 320,
+      "region": "Ilocos",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg"},
+        {"name": "Atay ng baboy", "quantity": "1/4 kg"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Suka", "quantity": "2 kutsara"},
+        {"name": "Gisantes", "quantity": "1/2 tasa"},
+        {"name": "Bell pepper", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baboy, lutuin hanggang mag-brown.",
+        "Ibuhos ang toyo at suka, lutuin 30 minuto.",
+        "Ilagay ang atay, gisantes, at bell pepper.",
+        "Timplahan ng paminta. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_dinuguan",
+      "title": "Dinuguan",
+      "description": "Maanghang na lutong dugo ng baboy — ihain na may puto.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🩸",
+      "rating": 4.5,
+      "totalSaves": 540,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg, hiniwa"},
+        {"name": "Dugo ng baboy", "quantity": "2 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Sili haba", "quantity": "3 piraso"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Laurel", "quantity": "2 dahon"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baboy, lutuin hanggang luto.",
+        "Ibuhos ang dugo, haluing mabuti.",
+        "Ilagay ang suka, huwag haluin agad, pakuluan.",
+        "Idagdag ang sili. Lutuin hanggang lumapot."
+      ]
+    },
+    {
+      "id": "rec_humba",
+      "title": "Humba",
+      "description": "Matamis na inadobong baboy na may tausi — Visayan classic.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 90,
+      "emoji": "🥩",
+      "rating": 4.6,
+      "totalSaves": 500,
+      "region": "Visayas",
+      "ingredients": [
+        {"name": "Liempo", "quantity": "1 kg"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Asukal na pula", "quantity": "1/4 tasa"},
+        {"name": "Tausi", "quantity": "2 kutsara"},
+        {"name": "Laurel", "quantity": "3 dahon"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang liempo, lutuin hanggang mag-brown.",
+        "Ilagay ang toyo, suka, asukal, at tausi.",
+        "Pakuluan tapos hinaan, lutuin 1 oras.",
+        "Hayaang lumapot at lumambot. Ihain."
+      ]
+    },
+    {
+      "id": "rec_pata_tim",
+      "title": "Pata Tim",
+      "description": "Malambot na pata sa matamis na sarsa na may pechay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 150,
+      "emoji": "🍖",
+      "rating": 4.7,
+      "totalSaves": 610,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pata ng baboy", "quantity": "1 buo"},
+        {"name": "Toyo", "quantity": "1/3 tasa"},
+        {"name": "Asukal na pula", "quantity": "1/4 tasa"},
+        {"name": "Pechay", "quantity": "1 bigkis"},
+        {"name": "Mushroom", "quantity": "1 tasa", "optional": true},
+        {"name": "Star anise", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan ang pata hanggang malambot (2 oras).",
+        "Igisa ang bawang, idagdag ang toyo at asukal.",
+        "Ilagay ang pata at star anise sa sarsa.",
+        "Lutuin hanggang lumapot ang sarsa.",
+        "Idagdag ang pechay at mushroom bago ihain."
+      ]
+    },
+    {
+      "id": "rec_ginisang_monggo",
+      "title": "Ginisang Monggo",
+      "description": "Murang ulam na masustansya — perpekto sa Biyernes.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🫘",
+      "rating": 4.5,
+      "totalSaves": 720,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Monggo", "quantity": "1 tasa"},
+        {"name": "Kangkong", "quantity": "1 bigkis"},
+        {"name": "Baboy", "quantity": "1/4 kg", "optional": true},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Chicharon", "quantity": "panghain", "optional": true}
+      ],
+      "instructions": [
+        "Pakuluan ang monggo hanggang lumambot.",
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang baboy, lutuin.",
+        "Ibuhos ang monggo, pakuluan.",
+        "Ilagay ang kangkong. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_chopsuey",
+      "title": "Chopsuey",
+      "description": "Sari-saring gulay na ginisa — colorful at masustansya.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🥬",
+      "rating": 4.4,
+      "totalSaves": 560,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sayote", "quantity": "1 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Baguio beans", "quantity": "1 tasa"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang hipon o karne, lutuin.",
+        "Ilagay ang matigas na gulay muna.",
+        "Idagdag ang malalambot na gulay.",
+        "Timplahan ng toyo at oyster sauce. Huwag i-overcook."
+      ]
+    },
+    {
+      "id": "rec_ginisang_ampalaya",
+      "title": "Ginisang Ampalaya",
+      "description": "Mapait pero masarap na ampalaya na may itlog.",
+      "mealTypes": ["breakfast", "lunch"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🥒",
+      "rating": 4.2,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Ampalaya", "quantity": "2 piraso"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Hiwain ang ampalaya, banlawan sa asin para mabawasan ang pait.",
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang ampalaya, lutuin sandali.",
+        "Ibuhos ang batidong itlog.",
+        "Haluin hanggang luto ang itlog. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_ginataang_gulay",
+      "title": "Ginataang Gulay",
+      "description": "Mga gulay na niluto sa creamy na gata.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🥥",
+      "rating": 4.6,
+      "totalSaves": 540,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kalabasa", "quantity": "1/2 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Hipon", "quantity": "250 g", "optional": true},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang hipon (kung meron).",
+        "Ibuhos ang gata, pakuluan nang dahan-dahan.",
+        "Ilagay ang kalabasa, tapos ang sitaw.",
+        "Lutuin hanggang lumambot. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_pinakbet",
+      "title": "Pinakbet",
+      "description": "Sari-saring gulay na may bagoong — Ilocano original.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 35,
+      "emoji": "🍆",
+      "rating": 4.6,
+      "totalSaves": 680,
+      "region": "Ilocos",
+      "ingredients": [
+        {"name": "Talong", "quantity": "2 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Ampalaya", "quantity": "1 piraso"},
+        {"name": "Kalabasa", "quantity": "1/4 piraso"},
+        {"name": "Okra", "quantity": "6 piraso"},
+        {"name": "Bagoong", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Ilagay ang bagoong, haluin.",
+        "Idagdag ang matigas na gulay muna.",
+        "Ilagay ang natitirang gulay, takpan.",
+        "Huwag haluin agad — hayaang mag-steam. Ihain."
+      ]
+    },
+    {
+      "id": "rec_laing",
+      "title": "Laing",
+      "description": "Tuyong dahon ng gabi sa maanghang na gata — Bicol specialty.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 50,
+      "emoji": "🌿",
+      "rating": 4.7,
+      "totalSaves": 740,
+      "region": "Bicol",
+      "ingredients": [
+        {"name": "Dahon ng gabi (tuyo)", "quantity": "50 g"},
+        {"name": "Gata", "quantity": "3 tasa"},
+        {"name": "Baboy", "quantity": "1/4 kg", "optional": true},
+        {"name": "Sili haba", "quantity": "4 piraso"},
+        {"name": "Bagoong", "quantity": "2 kutsara"},
+        {"name": "Luya", "quantity": "1 daliri"}
+      ],
+      "instructions": [
+        "Pakuluan ang gata na may luya, bawang, at bagoong.",
+        "Ilagay ang dahon ng gabi, huwag haluin.",
+        "Lutuin nang dahan-dahan 30 minuto.",
+        "Idagdag ang sili at baboy.",
+        "Lutuin hanggang lumapot ang gata. Ihain."
+      ]
+    },
+    {
+      "id": "rec_bicol_express",
+      "title": "Bicol Express",
+      "description": "Maanghang na baboy sa gata at maraming sili.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🌶️",
+      "rating": 4.7,
+      "totalSaves": 920,
+      "region": "Bicol",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg, hiniwa"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Sili haba", "quantity": "8 piraso"},
+        {"name": "Bagoong", "quantity": "2 kutsara"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Luya", "quantity": "1 daliri"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Idagdag ang baboy, lutuin.",
+        "Ilagay ang bagoong, haluin.",
+        "Ibuhos ang gata, pakuluan dahan-dahan.",
+        "Idagdag ang sili. Lutuin hanggang lumapot."
+      ]
+    },
+    {
+      "id": "rec_ginataang_manok",
+      "title": "Ginataang Manok",
+      "description": "Manok sa malasang gata na may luya.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍗",
+      "rating": 4.5,
+      "totalSaves": 480,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili haba", "quantity": "3 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Malunggay", "quantity": "1 bigkis", "optional": true}
+      ],
+      "instructions": [
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Idagdag ang manok, lutuin hanggang mag-brown.",
+        "Ibuhos ang gata, pakuluan dahan-dahan.",
+        "Lutuin 25 minuto hanggang lumambot.",
+        "Idagdag ang malunggay at sili. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_ginataang_tilapia",
+      "title": "Ginataang Tilapia",
+      "description": "Tilapia sa creamy na gata na may mustasa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🐟",
+      "rating": 4.4,
+      "totalSaves": 290,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Tilapia", "quantity": "2 piraso"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Mustasa", "quantity": "1 bigkis"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili haba", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan ang gata na may luya at bawang.",
+        "Ilagay ang tilapia, huwag haluin.",
+        "Lutuin 15 minuto.",
+        "Idagdag ang mustasa at sili.",
+        "Timplahan ng patis. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_adobong_kangkong",
+      "title": "Adobong Kangkong",
+      "description": "Simpleng gulay na inadobo — mabilis at mura.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 15,
+      "emoji": "🥬",
+      "rating": 4.3,
+      "totalSaves": 380,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kangkong", "quantity": "2 bigkis"},
+        {"name": "Toyo", "quantity": "2 kutsara"},
+        {"name": "Suka", "quantity": "1 kutsara"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Paminta", "quantity": "1/2 kutsarita"}
+      ],
+      "instructions": [
+        "Igisa ang maraming bawang sa mantika.",
+        "Idagdag ang toyo at suka, pakuluan.",
+        "Ilagay ang kangkong, haluin.",
+        "Lutuin sandali lang para hindi malanta.",
+        "Timplahan ng paminta. Ihain agad."
+      ]
+    },
+    {
+      "id": "rec_pritong_isda",
+      "title": "Pritong Isda",
+      "description": "Crispy na prito, sawsaw sa toyo-kalamansi.",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 15,
+      "emoji": "🐟",
+      "rating": 4.4,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda", "quantity": "2 piraso"},
+        {"name": "Asin", "quantity": "panlasa"},
+        {"name": "Mantika", "quantity": "pangprito"},
+        {"name": "Bawang", "quantity": "4 cloves", "optional": true}
+      ],
+      "instructions": [
+        "Linisin at asinan ang isda.",
+        "Painitin ang mantika sa kawali.",
+        "Iprito hanggang golden brown ang magkabilang gilid.",
+        "Patuluin ang labis na mantika.",
+        "Ihain na may sawsawang toyo at kalamansi!"
+      ]
+    },
+    {
+      "id": "rec_paksiw_na_isda",
+      "title": "Paksiw na Isda",
+      "description": "Isda sa suka at luya — light at maasim.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🐟",
+      "rating": 4.3,
+      "totalSaves": 340,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda", "quantity": "1/2 kg"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Ampalaya", "quantity": "1 piraso", "optional": true},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Ilagay ang isda sa kaldero na may luya at bawang.",
+        "Ibuhos ang suka at kaunting tubig.",
+        "Pakuluan, huwag haluin.",
+        "Idagdag ang ampalaya at sili.",
+        "Timplahan ng asin. Lutuin 15 minuto."
+      ]
+    },
+    {
+      "id": "rec_paksiw_na_bangus",
+      "title": "Paksiw na Bangus",
+      "description": "Bangus sa suka na may talong at sili.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🐟",
+      "rating": 4.4,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bangus", "quantity": "1 piraso, hiniwa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Talong", "quantity": "1 piraso"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili haba", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Ilagay ang bangus sa kaldero na may luya at bawang.",
+        "Ibuhos ang suka at tubig.",
+        "Pakuluan nang hindi hinahalo.",
+        "Idagdag ang talong at sili.",
+        "Timplahan ng asin. Lutuin 20 minuto."
+      ]
+    },
+    {
+      "id": "rec_escabeche",
+      "title": "Escabeche",
+      "description": "Pritong isda na may matamis-maasim na sarsa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 40,
+      "emoji": "🐠",
+      "rating": 4.5,
+      "totalSaves": 320,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda", "quantity": "1 buo"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Asukal", "quantity": "3 kutsara"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Luya", "quantity": "1 daliri"}
+      ],
+      "instructions": [
+        "Iprito ang isda hanggang crispy, itabi.",
+        "Igisa ang luya, bawang, at sibuyas.",
+        "Idagdag ang suka, asukal, at tubig.",
+        "Ilagay ang karot at bell pepper.",
+        "Ibuhos ang sarsa sa isda. Ihain."
+      ]
+    },
+    {
+      "id": "rec_daing_na_bangus",
+      "title": "Daing na Bangus",
+      "description": "Bangus na binabad sa suka-bawang, pinrito.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🐟",
+      "rating": 4.6,
+      "totalSaves": 720,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bangus", "quantity": "1 piraso, biniyak"},
+        {"name": "Suka", "quantity": "1/3 tasa"},
+        {"name": "Bawang", "quantity": "8 cloves"},
+        {"name": "Paminta", "quantity": "1 kutsarita"},
+        {"name": "Asin", "quantity": "1 kutsara"}
+      ],
+      "instructions": [
+        "I-marinate ang bangus sa suka, bawang, paminta, asin.",
+        "Itago sa ref ng ilang oras o magdamag.",
+        "Painitin ang mantika.",
+        "Iprito hanggang golden at crispy.",
+        "Ihain na may sinangag, kamatis, at itlog (bangsilog)."
+      ]
+    },
+    {
+      "id": "rec_inihaw_na_tilapia",
+      "title": "Inihaw na Tilapia",
+      "description": "Tilapia na inihaw na may tanglad — smoky at masarap.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🔥",
+      "rating": 4.5,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Tilapia", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Tanglad", "quantity": "2 tangkay"},
+        {"name": "Asin", "quantity": "panlasa"}
+      ],
+      "instructions": [
+        "Linisin ang tilapia, asinan sa loob at labas.",
+        "Punuin ng kamatis, sibuyas, at tanglad.",
+        "Ibalot sa banana leaf kung meron.",
+        "Ihawin hanggang luto ang magkabilang gilid.",
+        "Ihain na may sawsawang toyo-kalamansi."
+      ]
+    },
+    {
+      "id": "rec_inihaw_na_liempo",
+      "title": "Inihaw na Liempo",
+      "description": "Marinated na liempo na inihaw — pang-handaan.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍖",
+      "rating": 4.7,
+      "totalSaves": 890,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Liempo", "quantity": "1 kg"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Kalamansi", "quantity": "5 piraso"},
+        {"name": "Banana ketchup", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Asukal", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Paghaluin ang toyo, kalamansi, ketchup, at bawang.",
+        "I-marinate ang liempo magdamag.",
+        "Ihawin sa baga, pahiran ng marinade.",
+        "Lutuin hanggang luto at may konting char.",
+        "Hiwain at ihain na may sawsawan."
+      ]
+    },
+    {
+      "id": "rec_kinilaw_na_tanigue",
+      "title": "Kinilaw na Tanigue",
+      "description": "Hilaw na isda na 'niluto' sa suka — sariwa at maasim.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🐟",
+      "rating": 4.5,
+      "totalSaves": 350,
+      "region": "Visayas",
+      "ingredients": [
+        {"name": "Tanigue", "quantity": "1/2 kg, cubes"},
+        {"name": "Suka", "quantity": "1/2 tasa"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "3 piraso"},
+        {"name": "Kalamansi", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Hugasan ang isda sa suka, pigain.",
+        "Babad muli sa sariwang suka at kalamansi.",
+        "Idagdag ang luya, sibuyas, at sili.",
+        "Timplahan ng asin at paminta.",
+        "Palamigin bago ihain."
+      ]
+    },
+    {
+      "id": "rec_sweet_sour_fish",
+      "title": "Sweet and Sour Fish",
+      "description": "Crispy na isda na may makulay na matamis-maasim na sarsa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 40,
+      "emoji": "🐠",
+      "rating": 4.4,
+      "totalSaves": 300,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda fillet", "quantity": "1/2 kg"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Pinya", "quantity": "1/2 tasa"},
+        {"name": "Ketchup", "quantity": "1/4 tasa"},
+        {"name": "Suka", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Balutan ng cornstarch ang isda, iprito.",
+        "Igisa ang gulay sandali.",
+        "Idagdag ang ketchup, suka, at asukal.",
+        "Palaputin ng cornstarch slurry.",
+        "Ibuhos sa pritong isda. Ihain agad."
+      ]
+    },
+    {
+      "id": "rec_calamares",
+      "title": "Calamares",
+      "description": "Crispy na pusit rings — pulutan o ulam.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🦑",
+      "rating": 4.6,
+      "totalSaves": 560,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pusit", "quantity": "1/2 kg, rings"},
+        {"name": "Harina", "quantity": "1 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Asin", "quantity": "1 kutsarita"},
+        {"name": "Paminta", "quantity": "1/2 kutsarita"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Timplahan ang harina ng asin at paminta.",
+        "Isawsaw ang pusit sa batidong itlog.",
+        "Balutan ng harina.",
+        "Iprito sa mainit na mantika hanggang golden.",
+        "Ihain na may mayo-garlic dip."
+      ]
+    },
+    {
+      "id": "rec_ginisang_sardinas",
+      "title": "Ginisang Sardinas",
+      "description": "Mura at mabilis — sardinas na may gulay.",
+      "mealTypes": ["breakfast", "lunch"],
+      "difficulty": "easy",
+      "cookingTimeMins": 15,
+      "emoji": "🥫",
+      "rating": 4.2,
+      "totalSaves": 480,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sardinas (lata)", "quantity": "1 lata"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Talong", "quantity": "1 piraso", "optional": true}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang talong kung meron.",
+        "Ibuhos ang sardinas.",
+        "Haluin at pakuluan sandali.",
+        "Ihain na may mainit na kanin."
+      ]
+    },
+    {
+      "id": "rec_tortang_talong",
+      "title": "Tortang Talong",
+      "description": "Simple at mura — talong na binalot sa itlog.",
+      "mealTypes": ["breakfast", "lunch"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍳",
+      "rating": 4.5,
+      "totalSaves": 680,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Talong", "quantity": "3 piraso"},
+        {"name": "Itlog", "quantity": "3 piraso"},
+        {"name": "Asin", "quantity": "panlasa"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Ihawin o iprito ang talong hanggang lumambot.",
+        "Balatan at lapatin gamit ang tinidor.",
+        "Batihin ang itlog, timplahan ng asin.",
+        "Isawsaw ang talong sa itlog, tapos iprito.",
+        "Ihain na may kanin at banana ketchup!"
+      ]
+    },
+    {
+      "id": "rec_tortang_giniling",
+      "title": "Tortang Giniling",
+      "description": "Itlog na may giniling at gulay — pang-baon favorite.",
+      "mealTypes": ["breakfast", "lunch"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🍳",
+      "rating": 4.4,
+      "totalSaves": 520,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/4 kg giniling"},
+        {"name": "Itlog", "quantity": "3 piraso"},
+        {"name": "Patatas", "quantity": "1 piraso, maliit na cubes"},
+        {"name": "Karot", "quantity": "1 piraso, tinadtad"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang giniling, patatas, at karot hanggang luto.",
+        "Palamigin saglit.",
+        "Batihin ang itlog, ihalo sa giniling.",
+        "Iprito sa kawali, hatiin sa portions.",
+        "Lutuin hanggang golden ang magkabilang gilid."
+      ]
+    },
+    {
+      "id": "rec_giniling_na_baboy",
+      "title": "Giniling na Baboy",
+      "description": "Mabilis lutuin, sulit sa budget.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🥘",
+      "rating": 4.5,
+      "totalSaves": 720,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "500 g giniling"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang giniling na baboy, lutuin.",
+        "Ilagay ang patatas at karot.",
+        "Timplahan ng toyo at paminta.",
+        "Lutuin hanggang luto ang gulay. Ihain!"
+      ]
+    },
+    {
+      "id": "rec_picadillo",
+      "title": "Picadillo",
+      "description": "Giniling na may sabaw at patatas — masustansyang sopas-ulam.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🥣",
+      "rating": 4.3,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/4 kg giniling"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Patola", "quantity": "1 piraso", "optional": true},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang giniling, lutuin.",
+        "Buhusan ng tubig, pakuluan.",
+        "Ilagay ang patatas at karot.",
+        "Idagdag ang patola. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_chicken_inasal",
+      "title": "Chicken Inasal",
+      "description": "Manok na inihaw sa atsuete at tanglad — Bacolod pride.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 50,
+      "emoji": "🍗",
+      "rating": 4.8,
+      "totalSaves": 1280,
+      "region": "Bacolod",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Tanglad", "quantity": "3 tangkay"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Atsuete", "quantity": "2 kutsara"},
+        {"name": "Kalamansi", "quantity": "5 piraso"}
+      ],
+      "instructions": [
+        "I-marinate ang manok sa suka, kalamansi, luya, tanglad.",
+        "Itago ng ilang oras.",
+        "Gumawa ng atsuete oil para sa basting.",
+        "Ihawin ang manok habang pinapahiran ng atsuete oil.",
+        "Ihain na may sinangag at sawsawang toyo-suka."
+      ]
+    },
+    {
+      "id": "rec_chicken_curry",
+      "title": "Chicken Curry",
+      "description": "Manok sa gata at curry powder na may gulay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍛",
+      "rating": 4.5,
+      "totalSaves": 540,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Curry powder", "quantity": "2 kutsara"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at luya.",
+        "Idagdag ang manok at curry powder.",
+        "Ibuhos ang gata, pakuluan.",
+        "Ilagay ang patatas at karot.",
+        "Idagdag ang bell pepper. Timplahan ng asin."
+      ]
+    },
+    {
+      "id": "rec_fried_chicken",
+      "title": "Pinoy Fried Chicken",
+      "description": "Malutong na pritong manok — paborito ng bata.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍗",
+      "rating": 4.7,
+      "totalSaves": 1100,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Harina", "quantity": "1 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Asin", "quantity": "1 kutsara"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "I-marinate ang manok sa bawang, asin, paminta.",
+        "Isawsaw sa batidong itlog.",
+        "Balutan ng harina.",
+        "Iprito sa katamtamang init hanggang golden.",
+        "Patuluin ang mantika. Ihain na may gravy."
+      ]
+    },
+    {
+      "id": "rec_buttered_chicken",
+      "title": "Buttered Chicken",
+      "description": "Pritong manok na binalot sa garlic butter.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🧈",
+      "rating": 4.6,
+      "totalSaves": 620,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Mantikilya", "quantity": "3 kutsara"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Harina", "quantity": "1/2 tasa"},
+        {"name": "Asin", "quantity": "panlasa"}
+      ],
+      "instructions": [
+        "Timplahan at balutan ng harina ang manok.",
+        "Iprito hanggang golden, itabi.",
+        "Tunawin ang mantikilya, igisa ang bawang.",
+        "Ibalik ang manok, haluin sa butter.",
+        "Lutuin sandali. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_chicken_pastel",
+      "title": "Chicken Pastel",
+      "description": "Creamy na manok na may sausage at gulay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🥧",
+      "rating": 4.5,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Hotdog o sausage", "quantity": "4 piraso"},
+        {"name": "Gatas", "quantity": "1 tasa"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Mushroom", "quantity": "1 tasa", "optional": true}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas, lutuin ang manok.",
+        "Idagdag ang sausage at gulay.",
+        "Ibuhos ang gatas at sabaw.",
+        "Palaputin, idagdag ang mushroom.",
+        "Timplahan ng asin at paminta. Ihain."
+      ]
+    },
+    {
+      "id": "rec_pancit_canton",
+      "title": "Pancit Canton",
+      "description": "Stir-fried na noodles na may karne at gulay — pampahaba ng buhay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🍜",
+      "rating": 4.6,
+      "totalSaves": 980,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Canton noodles", "quantity": "1/2 kg"},
+        {"name": "Manok", "quantity": "1/4 kg"},
+        {"name": "Hipon", "quantity": "1/4 kg"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Toyo", "quantity": "3 kutsara"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang manok at hipon, lutuin.",
+        "Ilagay ang gulay, igisa sandali.",
+        "Ibuhos ang sabaw at toyo, pakuluan.",
+        "Ilagay ang noodles, haluin hanggang malambot."
+      ]
+    },
+    {
+      "id": "rec_pancit_bihon",
+      "title": "Pancit Bihon",
+      "description": "Manipis na bihon na ginisa — handaan staple.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🍜",
+      "rating": 4.5,
+      "totalSaves": 870,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bihon", "quantity": "1/2 kg"},
+        {"name": "Manok", "quantity": "1/4 kg"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Sitsaro", "quantity": "1 tasa"},
+        {"name": "Toyo", "quantity": "3 kutsara"}
+      ],
+      "instructions": [
+        "Ibabad ang bihon sa tubig, itabi.",
+        "Igisa ang bawang, sibuyas, at manok.",
+        "Idagdag ang gulay, igisa.",
+        "Ibuhos ang sabaw at toyo, pakuluan.",
+        "Ilagay ang bihon, haluin hanggang maubos ang sabaw."
+      ]
+    },
+    {
+      "id": "rec_pancit_malabon",
+      "title": "Pancit Malabon",
+      "description": "Makapal na bihon na may seafood at orange na sarsa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 50,
+      "emoji": "🦐",
+      "rating": 4.6,
+      "totalSaves": 540,
+      "region": "Malabon",
+      "ingredients": [
+        {"name": "Bihon (malapad)", "quantity": "1/2 kg"},
+        {"name": "Hipon", "quantity": "1/4 kg"},
+        {"name": "Pusit", "quantity": "1/4 kg"},
+        {"name": "Itlog", "quantity": "3 piraso, nilaga"},
+        {"name": "Chicharon", "quantity": "1 tasa"},
+        {"name": "Atsuete", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Ibabad at pakuluan ang bihon, patuyuin.",
+        "Gumawa ng sarsa na may atsuete at sabaw ng hipon.",
+        "Ihalo ang sarsa sa noodles.",
+        "Lagyan ng hipon, pusit, at itlog sa ibabaw.",
+        "Budburan ng chicharon. Ihain na may kalamansi."
+      ]
+    },
+    {
+      "id": "rec_pancit_palabok",
+      "title": "Pancit Palabok",
+      "description": "Bihon na may malasang shrimp sauce at toppings.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 45,
+      "emoji": "🍤",
+      "rating": 4.6,
+      "totalSaves": 760,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bihon", "quantity": "1/2 kg"},
+        {"name": "Hipon", "quantity": "1/4 kg"},
+        {"name": "Ground pork", "quantity": "1/4 kg"},
+        {"name": "Atsuete", "quantity": "2 kutsara"},
+        {"name": "Itlog", "quantity": "3 piraso, nilaga"},
+        {"name": "Chicharon", "quantity": "1 tasa"}
+      ],
+      "instructions": [
+        "Pakuluan ang bihon, patuyuin.",
+        "Gumawa ng sauce na may giniling, atsuete, at sabaw ng hipon.",
+        "Palaputin ng cornstarch.",
+        "Ibuhos ang sauce sa noodles.",
+        "Lagyan ng hipon, itlog, at chicharon. Ihain."
+      ]
+    },
+    {
+      "id": "rec_pancit_sotanghon",
+      "title": "Pancit Sotanghon",
+      "description": "Malinaw na bermicelli na ginisa na may manok.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🍜",
+      "rating": 4.4,
+      "totalSaves": 430,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sotanghon", "quantity": "1/2 kg"},
+        {"name": "Manok", "quantity": "1/4 kg"},
+        {"name": "Tenga ng daga", "quantity": "1/4 tasa", "optional": true},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Toyo", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Ibabad ang sotanghon sa tubig.",
+        "Igisa ang bawang, sibuyas, at manok.",
+        "Idagdag ang gulay, igisa.",
+        "Ibuhos ang sabaw at toyo.",
+        "Ilagay ang sotanghon, haluin hanggang malambot."
+      ]
+    },
+    {
+      "id": "rec_lomi",
+      "title": "Lomi",
+      "description": "Malapot na mainit na noodle soup — Batangas favorite.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍲",
+      "rating": 4.5,
+      "totalSaves": 590,
+      "region": "Batangas",
+      "ingredients": [
+        {"name": "Lomi noodles", "quantity": "1/2 kg"},
+        {"name": "Baboy", "quantity": "1/4 kg"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Bawang", "quantity": "5 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at baboy.",
+        "Buhusan ng sabaw, pakuluan.",
+        "Ilagay ang lomi noodles.",
+        "Palaputin ng cornstarch slurry.",
+        "Ibuhos ang batidong itlog. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_batchoy",
+      "title": "La Paz Batchoy",
+      "description": "Mainit na mami na may laman-loob at chicharon — Iloilo classic.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🍜",
+      "rating": 4.6,
+      "totalSaves": 480,
+      "region": "Iloilo",
+      "ingredients": [
+        {"name": "Miki noodles", "quantity": "1/2 kg"},
+        {"name": "Baboy", "quantity": "1/4 kg"},
+        {"name": "Atay ng baboy", "quantity": "1/4 kg"},
+        {"name": "Chicharon", "quantity": "1/2 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves, ginto"},
+        {"name": "Itlog", "quantity": "2 piraso, nilaga"}
+      ],
+      "instructions": [
+        "Pakuluan ang baboy para sa sabaw.",
+        "Lutuin ang atay at hiwain.",
+        "Pakuluan ang miki, ilagay sa mangkok.",
+        "Buhusan ng mainit na sabaw at karne.",
+        "Budburan ng chicharon at ginisang bawang. Ihain."
+      ]
+    },
+    {
+      "id": "rec_sopas",
+      "title": "Sopas",
+      "description": "Creamy na macaroni soup na may manok at gulay.",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🍲",
+      "rating": 4.5,
+      "totalSaves": 700,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Macaroni", "quantity": "2 tasa"},
+        {"name": "Manok", "quantity": "1/4 kg"},
+        {"name": "Gatas", "quantity": "1 tasa"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at manok.",
+        "Buhusan ng sabaw, pakuluan.",
+        "Ilagay ang macaroni, lutuin.",
+        "Idagdag ang gulay at gatas.",
+        "Timplahan ng asin at paminta. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_arroz_caldo",
+      "title": "Arroz Caldo",
+      "description": "Malapot na lugaw na may manok at luya — comfort food.",
+      "mealTypes": ["breakfast", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍚",
+      "rating": 4.7,
+      "totalSaves": 920,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kanin (bigas)", "quantity": "1 tasa"},
+        {"name": "Manok", "quantity": "1/2 kg"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Itlog", "quantity": "2 piraso, nilaga"},
+        {"name": "Sibuyas dahon", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Idagdag ang manok, lutuin.",
+        "Ilagay ang bigas, haluin.",
+        "Buhusan ng maraming sabaw, pakuluan hanggang lumapot.",
+        "Timplahan ng patis. Lagyan ng itlog at ginisang bawang."
+      ]
+    },
+    {
+      "id": "rec_goto",
+      "title": "Goto",
+      "description": "Lugaw na may tripe at laman-loob — masustansya.",
+      "mealTypes": ["breakfast", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 90,
+      "emoji": "🍚",
+      "rating": 4.5,
+      "totalSaves": 480,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Tuwalya (tripe)", "quantity": "1/2 kg"},
+        {"name": "Kanin (bigas)", "quantity": "1 tasa"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Itlog", "quantity": "2 piraso, nilaga"},
+        {"name": "Sibuyas dahon", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Pakuluan ang tuwalya hanggang lumambot.",
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Ilagay ang bigas at tuwalya.",
+        "Buhusan ng sabaw, lutuin hanggang lumapot.",
+        "Timplahan. Lagyan ng itlog at toppings."
+      ]
+    },
+    {
+      "id": "rec_lugaw",
+      "title": "Lugaw",
+      "description": "Simpleng rice porridge — pampainit ng tiyan.",
+      "mealTypes": ["breakfast", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🍚",
+      "rating": 4.4,
+      "totalSaves": 560,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kanin (bigas)", "quantity": "1 tasa"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Sibuyas dahon", "quantity": "panghain"},
+        {"name": "Patis", "quantity": "panlasa"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at luya.",
+        "Ilagay ang bigas, haluin sandali.",
+        "Buhusan ng maraming tubig.",
+        "Pakuluan hanggang lumapot, haluin paminsan.",
+        "Timplahan ng patis. Lagyan ng toasted garlic."
+      ]
+    },
+    {
+      "id": "rec_champorado",
+      "title": "Champorado",
+      "description": "Matamis na chocolate rice porridge — ihain na may tuyo.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🍫",
+      "rating": 4.6,
+      "totalSaves": 810,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Malagkit na bigas", "quantity": "1 tasa"},
+        {"name": "Tablea (tsokolate)", "quantity": "4 piraso"},
+        {"name": "Asukal", "quantity": "1/2 tasa"},
+        {"name": "Gatas", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Pakuluan ang malagkit na bigas sa tubig.",
+        "Haluin paminsan hanggang lumapot.",
+        "Idagdag ang tablea, haluin hanggang matunaw.",
+        "Timplahan ng asukal.",
+        "Ihain na may gatas at tuyo sa tabi."
+      ]
+    },
+    {
+      "id": "rec_tapsilog",
+      "title": "Tapsilog",
+      "description": "Tapa, sinangag, at itlog — almusal ng bayan.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍳",
+      "rating": 4.7,
+      "totalSaves": 1010,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Beef tapa", "quantity": "1/4 kg"},
+        {"name": "Kanin", "quantity": "2 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Iprito ang tapa hanggang luto.",
+        "Igisa ang lutong kanin sa bawang (sinangag).",
+        "Iprito ang itlog (sunny side up).",
+        "I-assemble sa plato.",
+        "Ihain na may sukang may sili."
+      ]
+    },
+    {
+      "id": "rec_tosilog",
+      "title": "Tosilog",
+      "description": "Tocino, sinangag, at itlog — matamis na almusal.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍳",
+      "rating": 4.6,
+      "totalSaves": 880,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pork tocino", "quantity": "1/4 kg"},
+        {"name": "Kanin", "quantity": "2 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "5 cloves"}
+      ],
+      "instructions": [
+        "Lutuin ang tocino sa kaunting tubig hanggang mag-caramelize.",
+        "Igisa ang kanin sa bawang.",
+        "Iprito ang itlog.",
+        "I-assemble sa plato.",
+        "Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_longsilog",
+      "title": "Longsilog",
+      "description": "Longganisa, sinangag, at itlog — klasikong almusal.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍳",
+      "rating": 4.6,
+      "totalSaves": 840,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Longganisa", "quantity": "4 piraso"},
+        {"name": "Kanin", "quantity": "2 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "5 cloves"}
+      ],
+      "instructions": [
+        "Lutuin ang longganisa sa tubig hanggang maubos, iprito.",
+        "Igisa ang kanin sa bawang.",
+        "Iprito ang itlog.",
+        "I-assemble sa plato.",
+        "Ihain na may suka."
+      ]
+    },
+    {
+      "id": "rec_sinangag",
+      "title": "Sinangag (Garlic Fried Rice)",
+      "description": "Bawang-na-bawang na sinangag — base ng lahat ng silog.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 10,
+      "emoji": "🍚",
+      "rating": 4.5,
+      "totalSaves": 660,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kanin (lamig)", "quantity": "3 tasa"},
+        {"name": "Bawang", "quantity": "8 cloves"},
+        {"name": "Asin", "quantity": "panlasa"},
+        {"name": "Mantika", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Iprito ang bawang hanggang golden, itabi ang kalahati.",
+        "Ilagay ang malamig na kanin.",
+        "Haluin at i-toast hanggang mabango.",
+        "Timplahan ng asin.",
+        "Budburan ng toasted garlic. Ihain."
+      ]
+    },
+    {
+      "id": "rec_scrambled_egg",
+      "title": "Ginisang Itlog at Kamatis",
+      "description": "Itlog na may kamatis at sibuyas — simpleng almusal.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 10,
+      "emoji": "🍳",
+      "rating": 4.2,
+      "totalSaves": 420,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Itlog", "quantity": "3 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Asin", "quantity": "panlasa"}
+      ],
+      "instructions": [
+        "Igisa ang sibuyas at kamatis.",
+        "Idagdag ang batidong itlog.",
+        "Haluin nang dahan-dahan.",
+        "Lutuin hanggang luto pero malambot.",
+        "Timplahan ng asin. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_lumpiang_shanghai",
+      "title": "Lumpiang Shanghai",
+      "description": "Crispy na spring rolls na may giniling — handaan must-have.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 50,
+      "emoji": "🥟",
+      "rating": 4.8,
+      "totalSaves": 1340,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg giniling"},
+        {"name": "Karot", "quantity": "1 piraso, tinadtad"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Lumpia wrapper", "quantity": "1 pakete"},
+        {"name": "Itlog", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Paghaluin ang giniling, karot, sibuyas, bawang, itlog.",
+        "Timplahan ng asin at paminta.",
+        "Ibalot nang manipis sa wrapper.",
+        "Iprito sa katamtamang init hanggang golden.",
+        "Ihain na may sweet chili o ketchup."
+      ]
+    },
+    {
+      "id": "rec_lumpiang_sariwa",
+      "title": "Lumpiang Sariwa",
+      "description": "Fresh na lumpia na may gulay at matamis na sarsa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 45,
+      "emoji": "🌯",
+      "rating": 4.4,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Ubod (puso ng niyog)", "quantity": "2 tasa"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Baguio beans", "quantity": "1 tasa"},
+        {"name": "Tokwa", "quantity": "2 piraso"},
+        {"name": "Lumpia wrapper (sariwa)", "quantity": "6 piraso"},
+        {"name": "Mani", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Igisa ang tokwa, ubod, at gulay.",
+        "Lutuin hanggang malambot, patuyuin.",
+        "Ilagay sa sariwang wrapper na may letsugas.",
+        "Ibalot, lagyan ng matamis na sarsa.",
+        "Budburan ng mani at bawang. Ihain."
+      ]
+    },
+    {
+      "id": "rec_ukoy",
+      "title": "Ukoy",
+      "description": "Crispy na fritters ng hipon at toge.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🦐",
+      "rating": 4.4,
+      "totalSaves": 380,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Hipon (maliit)", "quantity": "1/4 kg"},
+        {"name": "Toge", "quantity": "2 tasa"},
+        {"name": "Kalabasa", "quantity": "1/2 tasa, julienne"},
+        {"name": "Harina", "quantity": "1 tasa"},
+        {"name": "Itlog", "quantity": "1 piraso"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Gumawa ng batter na harina, itlog, at tubig.",
+        "Ihalo ang toge at kalabasa.",
+        "Sandukin sa kawali, patungan ng hipon.",
+        "Iprito hanggang crispy magkabilang gilid.",
+        "Ihain na may sawsawang suka."
+      ]
+    },
+    {
+      "id": "rec_ginisang_repolyo",
+      "title": "Ginisang Repolyo",
+      "description": "Simpleng ginisang repolyo na may karne o hipon.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🥬",
+      "rating": 4.2,
+      "totalSaves": 320,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Repolyo", "quantity": "1/2 ulo"},
+        {"name": "Baboy", "quantity": "1/4 kg", "optional": true},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Kamatis", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang baboy, lutuin.",
+        "Ilagay ang karot, igisa.",
+        "Idagdag ang repolyo, haluin.",
+        "Timplahan ng patis. Huwag i-overcook."
+      ]
+    },
+    {
+      "id": "rec_ginisang_sayote",
+      "title": "Ginisang Sayote",
+      "description": "Mura at madaling lutuin na sayote na may itlog.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🥒",
+      "rating": 4.1,
+      "totalSaves": 280,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sayote", "quantity": "2 piraso"},
+        {"name": "Itlog", "quantity": "2 piraso", "optional": true},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Hiwain nang manipis ang sayote.",
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang sayote, takpan.",
+        "Lutuin hanggang lumambot.",
+        "Idagdag ang itlog kung gusto. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_ginataang_kalabasa",
+      "title": "Ginataang Kalabasa at Sitaw",
+      "description": "Creamy na kalabasa at sitaw sa gata.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🎃",
+      "rating": 4.5,
+      "totalSaves": 440,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kalabasa", "quantity": "1/2 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Bagoong", "quantity": "1 kutsara"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at luya.",
+        "Idagdag ang hipon kung meron.",
+        "Ibuhos ang gata at bagoong.",
+        "Ilagay ang kalabasa, lutuin hanggang malambot.",
+        "Idagdag ang sitaw. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_monggo_guisado",
+      "title": "Munggo Guisado",
+      "description": "Ginisang munggo na may chicharon at ampalaya leaves.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🫘",
+      "rating": 4.4,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Monggo", "quantity": "1 tasa"},
+        {"name": "Dahon ng ampalaya", "quantity": "1 bigkis"},
+        {"name": "Chicharon", "quantity": "1/2 tasa"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Pakuluan ang monggo hanggang lumambot.",
+        "Igisa ang bawang, sibuyas, kamatis.",
+        "Ibuhos ang monggo, pakuluan.",
+        "Idagdag ang dahon ng ampalaya.",
+        "Budburan ng chicharon. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_sinigang_salmon",
+      "title": "Sinigang sa Miso (Salmon)",
+      "description": "Ulo ng salmon sa miso at maasim na sabaw.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 40,
+      "emoji": "🐟",
+      "rating": 4.6,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Ulo ng salmon", "quantity": "1/2 kg"},
+        {"name": "Miso", "quantity": "3 kutsara"},
+        {"name": "Mustasa", "quantity": "1 bigkis"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sampalok", "quantity": "1 sachet mix"},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, kamatis, at miso.",
+        "Buhusan ng tubig, pakuluan.",
+        "Ilagay ang sinigang mix.",
+        "Idagdag ang salmon, lutuin 8 minuto.",
+        "Ilagay ang mustasa at sili. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_rellenong_bangus",
+      "title": "Rellenong Bangus",
+      "description": "Bangus na binalatan, hinaluan, at pinrito muli.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 75,
+      "emoji": "🐟",
+      "rating": 4.5,
+      "totalSaves": 290,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bangus", "quantity": "1 malaki"},
+        {"name": "Patatas", "quantity": "1 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Pasas", "quantity": "1/4 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Alisin ang laman ng bangus nang buo ang balat.",
+        "Igisa ang laman na may gulay at pasas.",
+        "Ibalik ang ginisa sa balat ng bangus.",
+        "Tahiin o takpan, iprito nang dahan-dahan.",
+        "Hiwain at ihain na may ketchup."
+      ]
+    },
+    {
+      "id": "rec_bopis",
+      "title": "Bopis",
+      "description": "Maanghang na lutong baga at puso ng baboy.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🌶️",
+      "rating": 4.3,
+      "totalSaves": 270,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baga at puso ng baboy", "quantity": "1/2 kg"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Sili", "quantity": "4 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Luya", "quantity": "1 daliri"}
+      ],
+      "instructions": [
+        "Pakuluan at tadtarin nang maliit ang laman-loob.",
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Idagdag ang laman-loob, igisa.",
+        "Ibuhos ang suka, pakuluan.",
+        "Idagdag ang sili at karot. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_papaitan",
+      "title": "Papaitan",
+      "description": "Mapait-anghang na laman-loob soup — Ilocano specialty.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "hard",
+      "cookingTimeMins": 90,
+      "emoji": "🍲",
+      "rating": 4.2,
+      "totalSaves": 210,
+      "region": "Ilocos",
+      "ingredients": [
+        {"name": "Laman-loob ng kambing", "quantity": "1/2 kg"},
+        {"name": "Apdo", "quantity": "2 kutsara"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili", "quantity": "4 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Kalamansi", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan at hiwain ang laman-loob.",
+        "Igisa ang luya, bawang, at sibuyas.",
+        "Idagdag ang laman-loob at sabaw.",
+        "Ilagay ang apdo para sa pait.",
+        "Timplahan ng sili at kalamansi. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_kilawing_labanos",
+      "title": "Ensaladang Talong",
+      "description": "Inihaw na talong na may kamatis at sibuyas — refreshing side.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍆",
+      "rating": 4.3,
+      "totalSaves": 340,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Talong", "quantity": "3 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Suka", "quantity": "2 kutsara"},
+        {"name": "Bagoong", "quantity": "1 kutsara", "optional": true}
+      ],
+      "instructions": [
+        "Ihawin ang talong hanggang lumambot.",
+        "Balatan at hiwain.",
+        "Ihalo ang kamatis at sibuyas.",
+        "Timplahan ng suka at asin.",
+        "Ihain na malamig na may bagoong."
+      ]
+    },
+    {
+      "id": "rec_ginisang_pechay",
+      "title": "Ginisang Pechay",
+      "description": "Mabilis na ginisang pechay na may karne.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 18,
+      "emoji": "🥬",
+      "rating": 4.1,
+      "totalSaves": 260,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pechay", "quantity": "2 bigkis"},
+        {"name": "Baboy", "quantity": "1/4 kg", "optional": true},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang baboy, lutuin.",
+        "Ilagay ang tangkay ng pechay muna.",
+        "Idagdag ang dahon, haluin sandali.",
+        "Timplahan ng patis. Ihain agad."
+      ]
+    },
+    {
+      "id": "rec_adobong_sitaw",
+      "title": "Adobong Sitaw",
+      "description": "Sitaw na inadobo na may giniling — mura at masarap.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🫛",
+      "rating": 4.3,
+      "totalSaves": 350,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sitaw", "quantity": "2 bigkis"},
+        {"name": "Baboy", "quantity": "1/4 kg giniling", "optional": true},
+        {"name": "Toyo", "quantity": "2 kutsara"},
+        {"name": "Suka", "quantity": "1 kutsara"},
+        {"name": "Bawang", "quantity": "5 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang giniling, lutuin.",
+        "Ilagay ang toyo at suka, pakuluan.",
+        "Idagdag ang sitaw, haluin.",
+        "Lutuin hanggang luto. Timplahan ng paminta."
+      ]
+    },
+    {
+      "id": "rec_ginataang_langka",
+      "title": "Ginataang Langka",
+      "description": "Hilaw na langka sa gata — creamy at masustansya.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🥥",
+      "rating": 4.4,
+      "totalSaves": 320,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Hilaw na langka", "quantity": "2 tasa"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Sili haba", "quantity": "2 piraso"},
+        {"name": "Bagoong", "quantity": "1 kutsara"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at luya.",
+        "Idagdag ang hipon at bagoong.",
+        "Ibuhos ang gata.",
+        "Ilagay ang langka, lutuin hanggang lumambot.",
+        "Idagdag ang sili. Lutuin hanggang lumapot."
+      ]
+    },
+    {
+      "id": "rec_pesang_isda",
+      "title": "Pesang Isda",
+      "description": "Malinis na sabaw ng isda na may luya at gulay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🐟",
+      "rating": 4.3,
+      "totalSaves": 240,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda (bangus o dalag)", "quantity": "1/2 kg"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Pechay", "quantity": "1 bigkis"},
+        {"name": "Patatas", "quantity": "1 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan ang tubig na may luya at sibuyas.",
+        "Ilagay ang patatas, lutuin.",
+        "Idagdag ang isda, lutuin 10 minuto.",
+        "Ilagay ang pechay.",
+        "Timplahan ng asin. Ihain na may misua/bagoong."
+      ]
+    },
+    {
+      "id": "rec_pork_steak",
+      "title": "Pork Steak",
+      "description": "Baboy na bersyon ng bistek — toyo, kalamansi, sibuyas.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🥩",
+      "rating": 4.5,
+      "totalSaves": 480,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg, hiwa"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Kalamansi", "quantity": "5 piraso"},
+        {"name": "Sibuyas", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Paminta", "quantity": "1 kutsarita"}
+      ],
+      "instructions": [
+        "I-marinate ang baboy sa toyo at kalamansi.",
+        "Iprito ang sibuyas, itabi.",
+        "Lutuin ang baboy sa marinade.",
+        "Pakuluan hanggang lumambot at lumapot.",
+        "Lagyan ng sibuyas. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_chicken_tinola_malunggay",
+      "title": "Tinolang Manok sa Malunggay",
+      "description": "Tinola na may malunggay sa halip na sili leaves.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍗",
+      "rating": 4.5,
+      "totalSaves": 420,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sayote", "quantity": "1 piraso"},
+        {"name": "Malunggay", "quantity": "1 bigkis"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang luya, bawang, at sibuyas.",
+        "Idagdag ang manok, lutuin.",
+        "Buhusan ng tubig, pakuluan.",
+        "Ilagay ang sayote.",
+        "Idagdag ang malunggay. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_ginisang_upo",
+      "title": "Ginisang Upo",
+      "description": "Upo na ginisa na may hipon o giniling.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🥒",
+      "rating": 4.2,
+      "totalSaves": 300,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Upo", "quantity": "1 piraso"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Balatan at hiwain ang upo.",
+        "Igisa ang bawang, sibuyas, kamatis.",
+        "Idagdag ang hipon, lutuin.",
+        "Ilagay ang upo, takpan.",
+        "Lutuin hanggang lumambot. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_tortang_dulong",
+      "title": "Tortang Dulong",
+      "description": "Maliliit na isda na binalot sa itlog at pinrito.",
+      "mealTypes": ["breakfast", "lunch"],
+      "difficulty": "easy",
+      "cookingTimeMins": 20,
+      "emoji": "🍳",
+      "rating": 4.2,
+      "totalSaves": 190,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Dulong (silver fish)", "quantity": "1 tasa"},
+        {"name": "Itlog", "quantity": "3 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Hugasan ang dulong, patuyuin.",
+        "Batihin ang itlog, ihalo ang dulong at gulay.",
+        "Timplahan ng asin at paminta.",
+        "Iprito ang bawat sandok sa mantika.",
+        "Lutuin hanggang golden. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_ginataang_alimasag",
+      "title": "Ginataang Alimasag",
+      "description": "Alimasag sa creamy na gata at kalabasa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 40,
+      "emoji": "🦀",
+      "rating": 4.6,
+      "totalSaves": 430,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Alimasag", "quantity": "1/2 kg"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Kalabasa", "quantity": "1/4 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at luya.",
+        "Ibuhos ang gata, pakuluan dahan-dahan.",
+        "Ilagay ang kalabasa, lutuin.",
+        "Idagdag ang alimasag at sitaw.",
+        "Ilagay ang sili. Lutuin hanggang luto."
+      ]
+    },
+    {
+      "id": "rec_sinaing_na_tulingan",
+      "title": "Sinaing na Tulingan",
+      "description": "Tulingan na pinakuluan nang matagal sa kamias — Batangas style.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 120,
+      "emoji": "🐟",
+      "rating": 4.5,
+      "totalSaves": 280,
+      "region": "Batangas",
+      "ingredients": [
+        {"name": "Tulingan", "quantity": "2 piraso"},
+        {"name": "Kamias", "quantity": "6 piraso"},
+        {"name": "Asin", "quantity": "2 kutsara"},
+        {"name": "Baboy (taba)", "quantity": "1/4 kg", "optional": true}
+      ],
+      "instructions": [
+        "Asinan ang tulingan, ayusin sa palayok.",
+        "Lagyan ng kamias at taba ng baboy.",
+        "Buhusan ng tubig hanggang malubog.",
+        "Pakuluan nang dahan-dahan ng 2 oras.",
+        "Hayaang maluto hanggang malambot ang buto. Ihain."
+      ]
+    },
+    {
+      "id": "rec_chicken_afritada_tomato",
+      "title": "Pork Afritada",
+      "description": "Baboy sa tomato sauce na may patatas at bell pepper.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 55,
+      "emoji": "🥘",
+      "rating": 4.4,
+      "totalSaves": 390,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Laurel", "quantity": "2 dahon"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baboy, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 35 minuto.",
+        "Ilagay ang patatas at karot.",
+        "Idagdag ang bell pepper. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_adobong_baboy_baka",
+      "title": "Adobong Baboy't Baka",
+      "description": "Pinaghalong baboy at baka na inadobo — doble ang sarap.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 80,
+      "emoji": "🍖",
+      "rating": 4.6,
+      "totalSaves": 520,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1/2 kg"},
+        {"name": "Baka", "quantity": "1/2 kg"},
+        {"name": "Toyo", "quantity": "1/2 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Bawang", "quantity": "8 cloves"},
+        {"name": "Laurel", "quantity": "3 dahon"}
+      ],
+      "instructions": [
+        "Igisa ang bawang.",
+        "Idagdag ang baboy at baka, lutuin hanggang mag-brown.",
+        "Ilagay ang toyo, suka, laurel, paminta.",
+        "Pakuluan tapos hinaan, lutuin 1 oras.",
+        "Hayaang lumapot ang sarsa. Ihain."
+      ]
+    },
+    {
+      "id": "rec_ginisang_togue",
+      "title": "Ginisang Togue",
+      "description": "Mura at mabilis — toge na ginisa na may tokwa.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 18,
+      "emoji": "🌱",
+      "rating": 4.2,
+      "totalSaves": 310,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Togue", "quantity": "1/2 kg"},
+        {"name": "Tokwa", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Bawang", "quantity": "3 cloves"}
+      ],
+      "instructions": [
+        "Iprito ang tokwa, itabi.",
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang hipon at karot.",
+        "Ilagay ang togue, igisa sandali.",
+        "Ibalik ang tokwa. Timplahan ng toyo."
+      ]
+    },
+    {
+      "id": "rec_paksiw_na_pata",
+      "title": "Paksiw na Pata",
+      "description": "Pata sa suka at asukal na may saging at banana blossom.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 120,
+      "emoji": "🍖",
+      "rating": 4.5,
+      "totalSaves": 440,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pata ng baboy", "quantity": "1 buo, hiniwa"},
+        {"name": "Suka", "quantity": "1/3 tasa"},
+        {"name": "Toyo", "quantity": "1/4 tasa"},
+        {"name": "Asukal na pula", "quantity": "1/4 tasa"},
+        {"name": "Saging na saba", "quantity": "3 piraso"},
+        {"name": "Laurel", "quantity": "3 dahon"}
+      ],
+      "instructions": [
+        "Pakuluan ang pata hanggang lumambot.",
+        "Ilagay ang toyo, suka, asukal, laurel.",
+        "Lutuin nang dahan-dahan 1 oras.",
+        "Idagdag ang saging at banana blossom.",
+        "Hayaang lumapot ang sarsa. Ihain."
+      ]
+    },
+    {
+      "id": "rec_chicken_adobo_sa_gata",
+      "title": "Adobong Manok sa Gata",
+      "description": "Adobo na may gata — creamy na twist sa klasiko.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 50,
+      "emoji": "🥥",
+      "rating": 4.6,
+      "totalSaves": 560,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Toyo", "quantity": "1/3 tasa"},
+        {"name": "Suka", "quantity": "1/4 tasa"},
+        {"name": "Gata", "quantity": "1.5 tasa"},
+        {"name": "Bawang", "quantity": "6 cloves"},
+        {"name": "Sili haba", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, lutuin ang manok.",
+        "Ilagay ang toyo at suka, pakuluan.",
+        "Lutuin 25 minuto hanggang lumambot.",
+        "Ibuhos ang gata, pakuluan dahan-dahan.",
+        "Idagdag ang sili. Hayaang lumapot."
+      ]
+    },
+    {
+      "id": "rec_ginisang_ampalaya_giniling",
+      "title": "Ginisang Ampalaya na may Giniling",
+      "description": "Ampalaya na may giniling na baboy at itlog.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🥒",
+      "rating": 4.3,
+      "totalSaves": 280,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Ampalaya", "quantity": "2 piraso"},
+        {"name": "Baboy", "quantity": "1/4 kg giniling"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "3 cloves"}
+      ],
+      "instructions": [
+        "Banlawan ang ampalaya sa asin, pigain.",
+        "Igisa ang bawang, sibuyas, kamatis.",
+        "Idagdag ang giniling, lutuin.",
+        "Ilagay ang ampalaya, igisa.",
+        "Ibuhos ang itlog. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_pochero",
+      "title": "Pochero",
+      "description": "Baboy sa tomato na may saging, kamote, at gulay.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 80,
+      "emoji": "🍲",
+      "rating": 4.4,
+      "totalSaves": 350,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baboy", "quantity": "1 kg"},
+        {"name": "Saging na saba", "quantity": "3 piraso"},
+        {"name": "Kamote", "quantity": "2 piraso"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Sitaw", "quantity": "1 bigkis"}
+      ],
+      "instructions": [
+        "Pakuluan ang baboy hanggang lumambot.",
+        "Igisa ang bawang at sibuyas, idagdag ang baboy.",
+        "Ibuhos ang tomato sauce at sabaw.",
+        "Ilagay ang saging at kamote.",
+        "Idagdag ang gulay. Timplahan ng asin."
+      ]
+    },
+    {
+      "id": "rec_ginisang_kalabasa",
+      "title": "Ginisang Kalabasa",
+      "description": "Kalabasa na ginisa na may sitaw at hipon — walang gata.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🎃",
+      "rating": 4.3,
+      "totalSaves": 330,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kalabasa", "quantity": "1/2 piraso"},
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Hipon", "quantity": "1/4 kg", "optional": true},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang hipon kung meron.",
+        "Ilagay ang kalabasa, takpan.",
+        "Lutuin hanggang malambot.",
+        "Idagdag ang sitaw. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_inihaw_na_pusit",
+      "title": "Inihaw na Pusit",
+      "description": "Buong pusit na inihaw na may stuffing na kamatis-sibuyas.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🦑",
+      "rating": 4.5,
+      "totalSaves": 420,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Pusit (malaki)", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Kalamansi", "quantity": "3 piraso"},
+        {"name": "Toyo", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Linisin ang pusit, itago ang tinta.",
+        "Punuin ng kamatis at sibuyas.",
+        "Pahiran ng toyo at kalamansi.",
+        "Ihawin sandali bawat gilid (huwag i-overcook).",
+        "Ihain na may sawsawang toyo-kalamansi."
+      ]
+    },
+    {
+      "id": "rec_ginisang_patola",
+      "title": "Ginisang Patola at Misua",
+      "description": "Patola sa sabaw na may misua at giniling — light na ulam.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🥒",
+      "rating": 4.3,
+      "totalSaves": 340,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Patola", "quantity": "2 piraso"},
+        {"name": "Misua", "quantity": "1 bundle"},
+        {"name": "Baboy", "quantity": "1/4 kg giniling", "optional": true},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, kamatis.",
+        "Idagdag ang giniling, lutuin.",
+        "Buhusan ng tubig, pakuluan.",
+        "Ilagay ang patola, lutuin hanggang malambot.",
+        "Idagdag ang misua. Timplahan ng patis. Ihain agad."
+      ]
+    },
+    {
+      "id": "rec_beef_caldereta",
+      "title": "Beef Caldereta",
+      "description": "Baka sa maanghang na tomato-liver sauce — fiesta favorite.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 120,
+      "emoji": "🥘",
+      "rating": 4.7,
+      "totalSaves": 880,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baka", "quantity": "1 kg"},
+        {"name": "Tomato sauce", "quantity": "1 tasa"},
+        {"name": "Atay (liver spread)", "quantity": "1 lata"},
+        {"name": "Patatas", "quantity": "2 piraso"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "3 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang at sibuyas.",
+        "Idagdag ang baka, lutuin hanggang mag-brown.",
+        "Ibuhos ang tomato sauce at tubig, lutuin 1.5 oras.",
+        "Ilagay ang liver spread, patatas, karot.",
+        "Idagdag ang sili at bell pepper. Timplahan."
+      ]
+    },
+    {
+      "id": "rec_fish_fillet",
+      "title": "Fish Fillet sa Tausi",
+      "description": "Crispy na fish fillet sa malasang black bean sauce.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 35,
+      "emoji": "🐟",
+      "rating": 4.4,
+      "totalSaves": 290,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda fillet", "quantity": "1/2 kg"},
+        {"name": "Tausi", "quantity": "2 kutsara"},
+        {"name": "Tokwa", "quantity": "2 piraso", "optional": true},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Luya", "quantity": "1 daliri"}
+      ],
+      "instructions": [
+        "Iprito ang fish fillet, itabi.",
+        "Igisa ang bawang, luya, at tausi.",
+        "Idagdag ang tokwa at bell pepper.",
+        "Buhusan ng tubig, palaputin.",
+        "Ibalik ang isda, haluin dahan-dahan. Ihain."
+      ]
+    },
+    {
+      "id": "rec_tinapa_rice",
+      "title": "Tinapa Rice at Itlog",
+      "description": "Flaked tinapa na ginisa, ihain na may itlog at kamatis.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 15,
+      "emoji": "🐟",
+      "rating": 4.3,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Tinapa", "quantity": "2 piraso"},
+        {"name": "Kanin", "quantity": "2 tasa"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Iprito ang tinapa, alisin ang tinik, flake.",
+        "Igisa ang bawang at tinapa.",
+        "Ihalo sa kanin (o ihain hiwalay).",
+        "Iprito ang itlog.",
+        "Ihain na may hiwang kamatis at suka."
+      ]
+    },
+    {
+      "id": "rec_tuyo_itlog",
+      "title": "Tuyo, Kamatis, at Itlog",
+      "description": "Simpleng probinsiya breakfast — tuyo na may sangkap.",
+      "mealTypes": ["breakfast"],
+      "difficulty": "easy",
+      "cookingTimeMins": 12,
+      "emoji": "🐟",
+      "rating": 4.2,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Tuyo", "quantity": "4 piraso"},
+        {"name": "Itlog", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Kanin", "quantity": "2 tasa"},
+        {"name": "Suka", "quantity": "panghain"}
+      ],
+      "instructions": [
+        "Iprito ang tuyo hanggang crispy.",
+        "Iprito ang itlog.",
+        "Hiwain ang kamatis.",
+        "I-assemble sa plato na may sinangag.",
+        "Ihain na may sukang may sili."
+      ]
+    },
+    {
+      "id": "rec_kwek_kwek",
+      "title": "Kwek-Kwek",
+      "description": "Orange na batter-coated quail eggs — paboritong street food.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🥚",
+      "rating": 4.5,
+      "totalSaves": 520,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Itlog ng pugo", "quantity": "20 piraso, nilaga"},
+        {"name": "Harina", "quantity": "1 tasa"},
+        {"name": "Atsuete", "quantity": "1 kutsara"},
+        {"name": "Asin", "quantity": "1 kutsarita"},
+        {"name": "Mantika", "quantity": "pangprito"}
+      ],
+      "instructions": [
+        "Balatan ang nilagang itlog ng pugo.",
+        "Gumawa ng orange batter (harina, atsuete, tubig).",
+        "Isawsaw ang itlog sa batter.",
+        "Iprito hanggang crispy.",
+        "Ihain na may matamis o maasim na sawsawan."
+      ]
+    },
+    {
+      "id": "rec_ensaladang_mangga",
+      "title": "Ensaladang Mangga",
+      "description": "Hilaw na mangga na may kamatis at bagoong — refreshing.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 10,
+      "emoji": "🥭",
+      "rating": 4.4,
+      "totalSaves": 380,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Hilaw na mangga", "quantity": "2 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Bagoong", "quantity": "2 kutsara"}
+      ],
+      "instructions": [
+        "Hiwain ang mangga, kamatis, at sibuyas.",
+        "Paghaluin sa mangkok.",
+        "Lagyan ng bagoong.",
+        "Haluin nang mabuti.",
+        "Ihain na malamig bilang side dish."
+      ]
+    },
+    {
+      "id": "rec_ginataang_sitaw_kalabasa_hipon",
+      "title": "Ginataang Sitaw, Kalabasa at Hipon",
+      "description": "Klasikong ginataan na may sitaw, kalabasa, at hipon.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🥥",
+      "rating": 4.6,
+      "totalSaves": 560,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sitaw", "quantity": "1 bigkis"},
+        {"name": "Kalabasa", "quantity": "1/2 piraso"},
+        {"name": "Hipon", "quantity": "1/4 kg"},
+        {"name": "Gata", "quantity": "2 tasa"},
+        {"name": "Bagoong", "quantity": "1 kutsara"},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at luya.",
+        "Idagdag ang hipon at bagoong.",
+        "Ibuhos ang gata, pakuluan.",
+        "Ilagay ang kalabasa, lutuin hanggang malambot.",
+        "Idagdag ang sitaw at sili. Lutuin hanggang lumapot."
+      ]
+    },
+    {
+      "id": "rec_pinangat_na_isda",
+      "title": "Pinangat na Isda",
+      "description": "Isda na pinakuluan sa kamias at kamatis — light at maasim.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🐟",
+      "rating": 4.3,
+      "totalSaves": 250,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Isda (galunggong o tilapia)", "quantity": "1/2 kg"},
+        {"name": "Kamias", "quantity": "5 piraso"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Ayusin ang isda sa palayok.",
+        "Lagyan ng kamias, kamatis, luya.",
+        "Buhusan ng kaunting tubig.",
+        "Pakuluan nang hindi hinahalo.",
+        "Timplahan ng asin. Idagdag ang sili. Ihain."
+      ]
+    },
+    {
+      "id": "rec_chicken_macaroni_salad",
+      "title": "Chicken Sopas Espesyal",
+      "description": "Mayamang sopas na may manok, gatas, at hotdog.",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 40,
+      "emoji": "🍲",
+      "rating": 4.5,
+      "totalSaves": 470,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Macaroni", "quantity": "2 tasa"},
+        {"name": "Manok", "quantity": "1/4 kg"},
+        {"name": "Hotdog", "quantity": "3 piraso"},
+        {"name": "Gatas", "quantity": "1 tasa"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Repolyo", "quantity": "1/4 ulo"}
+      ],
+      "instructions": [
+        "Pakuluan ang manok, i-shred, itago ang sabaw.",
+        "Igisa ang bawang, sibuyas, at hotdog.",
+        "Ibuhos ang sabaw, pakuluan.",
+        "Ilagay ang macaroni at gulay.",
+        "Ibuhos ang gatas. Timplahan. Ihain na mainit."
+      ]
+    },
+    {
+      "id": "rec_adobo_kangkong_liempo",
+      "title": "Adobong Kangkong sa Liempo",
+      "description": "Adobong kangkong na may crispy na liempo.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🥬",
+      "rating": 4.4,
+      "totalSaves": 360,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Kangkong", "quantity": "2 bigkis"},
+        {"name": "Liempo", "quantity": "1/4 kg"},
+        {"name": "Toyo", "quantity": "2 kutsara"},
+        {"name": "Suka", "quantity": "1 kutsara"},
+        {"name": "Bawang", "quantity": "5 cloves"}
+      ],
+      "instructions": [
+        "Iprito ang liempo hanggang crispy, itabi.",
+        "Igisa ang bawang sa taba ng liempo.",
+        "Ilagay ang toyo at suka, pakuluan.",
+        "Idagdag ang kangkong, haluin sandali.",
+        "Ibalik ang liempo. Timplahan. Ihain."
+      ]
+    },
+    {
+      "id": "rec_ginisang_sardinas_kangkong",
+      "title": "Ginisang Sardinas at Kangkong",
+      "description": "Budget meal — sardinas na may kangkong.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 15,
+      "emoji": "🥫",
+      "rating": 4.2,
+      "totalSaves": 410,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sardinas (lata)", "quantity": "1 lata"},
+        {"name": "Kangkong", "quantity": "1 bigkis"},
+        {"name": "Bawang", "quantity": "3 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Ibuhos ang sardinas, haluin.",
+        "Pakuluan sandali.",
+        "Idagdag ang kangkong.",
+        "Lutuin sandali. Ihain na may kanin."
+      ]
+    },
+    {
+      "id": "rec_nilagang_mais",
+      "title": "Nilagang Mais",
+      "description": "Pinakuluang mais — simpleng meryenda o panghimagas.",
+      "mealTypes": ["breakfast", "any"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🌽",
+      "rating": 4.3,
+      "totalSaves": 320,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Mais", "quantity": "4 piraso"},
+        {"name": "Asin", "quantity": "1 kutsara"},
+        {"name": "Mantikilya", "quantity": "panghain", "optional": true}
+      ],
+      "instructions": [
+        "Balatan ang mais.",
+        "Pakuluan sa tubig na may asin.",
+        "Lutuin 15-20 minuto.",
+        "Hanguin at patuluin.",
+        "Ihain na may mantikilya kung gusto."
+      ]
+    },
+    {
+      "id": "rec_ginisang_baguio_beans",
+      "title": "Ginisang Baguio Beans",
+      "description": "Baguio beans na ginisa na may giniling at karot.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 25,
+      "emoji": "🫛",
+      "rating": 4.3,
+      "totalSaves": 300,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Baguio beans", "quantity": "1/2 kg"},
+        {"name": "Baboy", "quantity": "1/4 kg giniling", "optional": true},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Kamatis", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "Igisa ang bawang, sibuyas, kamatis.",
+        "Idagdag ang giniling, lutuin.",
+        "Ilagay ang karot, igisa.",
+        "Idagdag ang baguio beans, takpan.",
+        "Lutuin hanggang luto. Timplahan ng toyo."
+      ]
+    },
+    {
+      "id": "rec_sisig_bangus",
+      "title": "Sisig na Bangus",
+      "description": "Flaked bangus na sinisig — crispy at maanghang.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 35,
+      "emoji": "🐟",
+      "rating": 4.5,
+      "totalSaves": 380,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Bangus", "quantity": "1 piraso, boneless"},
+        {"name": "Sibuyas", "quantity": "1 piraso"},
+        {"name": "Sili", "quantity": "3 piraso"},
+        {"name": "Kalamansi", "quantity": "3 piraso"},
+        {"name": "Mayonnaise", "quantity": "2 kutsara", "optional": true}
+      ],
+      "instructions": [
+        "Iprito ang bangus hanggang crispy, flake.",
+        "Igisa ang sibuyas at sili.",
+        "Idagdag ang flaked bangus.",
+        "Timplahan ng toyo, kalamansi, at paminta.",
+        "Lagyan ng mayo. Ihain sa mainit na plato."
+      ]
+    },
+    {
+      "id": "rec_chicken_sotanghon_soup",
+      "title": "Chicken Sotanghon Soup",
+      "description": "Mainit na sabaw na may sotanghon at manok — comfort food.",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 35,
+      "emoji": "🍜",
+      "rating": 4.5,
+      "totalSaves": 500,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Sotanghon", "quantity": "1 bundle"},
+        {"name": "Manok", "quantity": "1/2 kg"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Sibuyas dahon", "quantity": "panghain"},
+        {"name": "Patis", "quantity": "panlasa"}
+      ],
+      "instructions": [
+        "Pakuluan ang manok, i-shred, itago ang sabaw.",
+        "Igisa ang bawang, luya, at sibuyas.",
+        "Ibalik ang manok at sabaw, pakuluan.",
+        "Ilagay ang binabad na sotanghon.",
+        "Timplahan ng patis. Lagyan ng dahon ng sibuyas."
+      ]
+    },
+    {
+      "id": "rec_sinampalukang_manok",
+      "title": "Sinampalukang Manok",
+      "description": "Manok sa maasim na sabaw ng sampalok at dahon nito.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍗",
+      "rating": 4.4,
+      "totalSaves": 330,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Sampalok", "quantity": "1 sachet mix"},
+        {"name": "Luya", "quantity": "1 daliri"},
+        {"name": "Talong", "quantity": "1 piraso"},
+        {"name": "Kangkong", "quantity": "1 bigkis"},
+        {"name": "Sili haba", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Igisa ang luya, bawang, at sibuyas.",
+        "Idagdag ang manok, lutuin hanggang mag-brown.",
+        "Buhusan ng tubig, pakuluan.",
+        "Ilagay ang sinigang mix at talong.",
+        "Idagdag ang kangkong at sili. Timplahan ng patis."
+      ]
+    },
+    {
+      "id": "rec_binagoongang_baboy",
+      "title": "Binagoongang Baboy",
+      "description": "Baboy na ginisa sa bagoong — malinamnam at maalat.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "medium",
+      "cookingTimeMins": 60,
+      "emoji": "🥘",
+      "rating": 4.6,
+      "totalSaves": 640,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Liempo", "quantity": "1/2 kg"},
+        {"name": "Bagoong", "quantity": "3 kutsara"},
+        {"name": "Kamatis", "quantity": "2 piraso"},
+        {"name": "Talong", "quantity": "2 piraso", "optional": true},
+        {"name": "Bawang", "quantity": "5 cloves"},
+        {"name": "Sili", "quantity": "2 piraso"}
+      ],
+      "instructions": [
+        "Pakuluan at iprito ang liempo hanggang crispy.",
+        "Igisa ang bawang, sibuyas, at kamatis.",
+        "Idagdag ang bagoong, igisa.",
+        "Ibalik ang liempo, haluin.",
+        "Idagdag ang talong at sili. Lutuin. Ihain."
+      ]
+    },
+    {
+      "id": "rec_ampalaya_con_carne",
+      "title": "Ampalaya con Carne",
+      "description": "Ampalaya at baka sa oyster sauce — stir-fry style.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 30,
+      "emoji": "🥒",
+      "rating": 4.3,
+      "totalSaves": 280,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Ampalaya", "quantity": "2 piraso"},
+        {"name": "Baka", "quantity": "1/4 kg, manipis"},
+        {"name": "Oyster sauce", "quantity": "2 kutsara"},
+        {"name": "Bawang", "quantity": "4 cloves"},
+        {"name": "Sibuyas", "quantity": "1 piraso"}
+      ],
+      "instructions": [
+        "Banlawan ang ampalaya sa asin, pigain.",
+        "Igisa ang bawang at baka hanggang luto.",
+        "Idagdag ang sibuyas at ampalaya.",
+        "Ilagay ang oyster sauce.",
+        "Igisa sandali. Timplahan. Ihain."
+      ]
+    },
+    {
+      "id": "rec_pininyahang_manok",
+      "title": "Pininyahang Manok",
+      "description": "Manok sa gatas at pinya — creamy at bahagyang matamis.",
+      "mealTypes": ["lunch", "dinner"],
+      "difficulty": "easy",
+      "cookingTimeMins": 45,
+      "emoji": "🍍",
+      "rating": 4.5,
+      "totalSaves": 460,
+      "region": "Pilipinas",
+      "ingredients": [
+        {"name": "Manok", "quantity": "1 kg"},
+        {"name": "Pinya", "quantity": "1 tasa"},
+        {"name": "Gatas", "quantity": "1 tasa"},
+        {"name": "Karot", "quantity": "1 piraso"},
+        {"name": "Bell pepper", "quantity": "1 piraso"},
+        {"name": "Bawang", "quantity": "4 cloves"}
+      ],
+      "instructions": [
+        "I-marinate ang manok sa katas ng pinya.",
+        "Igisa ang bawang at sibuyas, lutuin ang manok.",
+        "Idagdag ang karot, lutuin.",
+        "Ibuhos ang gatas at pinya.",
+        "Idagdag ang bell pepper. Timplahan. Ihain."
+      ]
+    }
+  ]
+}
