@@ -6,7 +6,7 @@ Built with **Flutter + Dart** — runs on **Android, iOS, at Web**.
 
 ## Status: Sprint 1–3 (UI/UX scaffold + offline fridge) ✅
 
-Walang Firebase/AI pa — mock data muna. Lahat ng screen ay navigable at gumagana. Ang fridge ay persistent na (Hive) — hindi mawawala pag-restart ng app.
+Sprint 1–3 tapos na. Lahat ng screen ay navigable at gumagana, at **persistent na ang fridge** (Hive local storage) — hindi mawawala ang ingredients pag-restart ng app. Recipes ay mock data pa rin; wala pang Firebase/AI (paparating sa Sprint 4–6).
 
 ### Tapos na
 - ✅ Clean architecture folder structure (`core/`, `data/`, `presentation/`)
