@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Needed so google_fonts can fetch Poppins at runtime (and for future
+         AI/Firebase calls). Without this, release builds fall back to the
+         system font. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="anong_ulam_today"
+        android:label="Anong Ulam Today?"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
