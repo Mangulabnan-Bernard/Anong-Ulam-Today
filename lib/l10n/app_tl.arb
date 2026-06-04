@@ -33,7 +33,28 @@
   "add": "Magdagdag",
   "done": "Tapos na",
   "searchIngredientHint": "Maghanap ng sangkap... (hal. bawang)",
-  "aiHint": "AI suggestions base sa laman ng ref mo — paparating sa Sprint 5!",
+  "aiHint": "Matalinong mungkahi base sa laman ng ref mo.",
+
+  "aiSuggestTitle": "AI Suggestions",
+  "aiSuggestSubtitle": "Matalinong piniling ulam mula sa ref mo",
+  "aiOpenSuggestions": "AI Suggestions",
+  "aiForMeal": "Para sa",
+  "aiThinking": "Hinahanap ang pinakamasarap na ulam para sa'yo...",
+  "aiNeedIngredients": "Magdagdag muna ng sangkap sa ref para makapag-suggest ang AI.",
+  "aiNoMatches": "Wala pang malakas na tugma. Subukang magdagdag ng karaniwang sangkap.",
+  "aiMatchRatio": "{have} sa {total} pangunahing sangkap",
+  "@aiMatchRatio": {
+    "placeholders": { "have": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "aiConfidence": "{percent}% tugma",
+  "@aiConfidence": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "aiTopPick": "Pinakamabuti",
+  "aiReportWrong": "Maling ulam?",
+  "aiReportThanks": "Salamat! Naidagdag sa review queue.",
+  "aiOfflineNote": "Niranking offline mula sa ref mo.",
+  "aiRefresh": "I-refresh",
 
   "discoverTitle": "Tuklasin",
   "searchRecipeHint": "Maghanap ng ulam o sangkap...",

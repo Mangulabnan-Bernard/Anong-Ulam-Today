@@ -33,7 +33,28 @@
   "add": "Add",
   "done": "Done",
   "searchIngredientHint": "Search ingredient... (e.g. garlic)",
-  "aiHint": "AI suggestions based on your fridge — coming in Sprint 5!",
+  "aiHint": "Smart dish picks from what's in your fridge.",
+
+  "aiSuggestTitle": "AI Suggestions",
+  "aiSuggestSubtitle": "Smart picks from your fridge",
+  "aiOpenSuggestions": "AI Suggestions",
+  "aiForMeal": "Suggest for",
+  "aiThinking": "Finding the best ulam for you...",
+  "aiNeedIngredients": "Add ingredients to your fridge first so AI can suggest dishes.",
+  "aiNoMatches": "No strong matches yet. Try adding more common ingredients.",
+  "aiMatchRatio": "{have} of {total} key ingredients",
+  "@aiMatchRatio": {
+    "placeholders": { "have": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "aiConfidence": "{percent}% match",
+  "@aiConfidence": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "aiTopPick": "Top pick",
+  "aiReportWrong": "Wrong dish?",
+  "aiReportThanks": "Thanks! Added to the review queue.",
+  "aiOfflineNote": "Ranked offline from your fridge.",
+  "aiRefresh": "Refresh",
 
   "discoverTitle": "Discover",
   "searchRecipeHint": "Search dish or ingredient...",

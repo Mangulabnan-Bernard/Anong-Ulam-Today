@@ -3,24 +3,16 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/mock/mock_recipes.dart';
 import '../../data/models/recipe.dart';
 import '../../data/models/recipe_match.dart';
+import '../../domain/recipe_matching.dart';
 import 'fridge_provider.dart';
 
-/// All available recipes (mock seed for now).
-final recipesProvider = Provider<List<Recipe>>((ref) => kMockRecipes);
+// Re-exported so existing imports (`recipe_provider.dart`) still resolve
+// `matchRecipe`; the implementation now lives in the domain layer.
+export '../../domain/recipe_matching.dart' show matchRecipe;
 
-/// Matches a single recipe's ingredients against the current fridge by name.
-RecipeMatch matchRecipe(Recipe recipe, Set<String> fridgeNames) {
-  final have = <RecipeIngredient>[];
-  final missing = <RecipeIngredient>[];
-  for (final ing in recipe.ingredients) {
-    final name = ing.name.toLowerCase();
-    final inFridge = fridgeNames.any(
-      (f) => name.contains(f) || f.contains(name),
-    );
-    (inFridge ? have : missing).add(ing);
-  }
-  return RecipeMatch(recipe: recipe, have: have, missing: missing);
-}
+/// All available recipes. Defaults to the small mock seed; overridden in
+/// `main()` with the full JSON catalog (Sprint 4).
+final recipesProvider = Provider<List<Recipe>>((ref) => kMockRecipes);
 
 /// All recipes matched against the fridge, sorted by best match first.
 final matchedRecipesProvider = Provider<List<RecipeMatch>>((ref) {

@@ -74,10 +74,35 @@ class FridgeScreen extends ConsumerWidget {
                       )
                       .toList(),
                 ),
+                const SizedBox(height: 20),
+                _AiSuggestButton(),
                 const SizedBox(height: 24),
                 _CookableSection(),
               ],
             ),
+    );
+  }
+}
+
+/// Full-width CTA into the AI Suggestions screen (Sprint 5).
+class _AiSuggestButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    return SizedBox(
+      width: double.infinity,
+      child: FilledButton.icon(
+        onPressed: () => context.push('/suggest'),
+        style: FilledButton.styleFrom(
+          backgroundColor: AppColors.secondary,
+          foregroundColor: Colors.white,
+          padding: const EdgeInsets.symmetric(vertical: 14),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        ),
+        icon: const Text('✨', style: TextStyle(fontSize: 16)),
+        label: Text(l.aiOpenSuggestions),
+      ),
     );
   }
 }
