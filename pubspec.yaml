@@ -43,6 +43,11 @@ dependencies:
   hive_ce: ^2.19.3
   hive_ce_flutter: ^2.3.4
 
+  # Sprint 6: on-device LLM (Gemma) for RAG dish suggestions — free, offline,
+  # no API key. flutter_gemma_litertlm provides the engine for .litertlm models.
+  flutter_gemma: ^1.0.0
+  flutter_gemma_litertlm: ^1.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

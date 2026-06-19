@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351204835755",
+    "project_id": "anong-ulam-today",
+    "storage_bucket": "anong-ulam-today.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351204835755:android:b01316c5e0ac2db68b92ee",
+        "android_client_info": {
+          "package_name": "com.anongulam.anong_ulam_today"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnEL9w0KsRIplxA7IOdhJ926laMedlb6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
