@@ -60,6 +60,7 @@ class FridgeScreen extends ConsumerWidget {
                               ..showSnackBar(
                                 SnackBar(
                                   content: Text(l.swipeToDelete(ing.name)),
+                                  duration: const Duration(seconds: 3),
                                   action: SnackBarAction(
                                     label: l.undo,
                                     onPressed: () => ref

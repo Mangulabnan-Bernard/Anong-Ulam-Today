@@ -59,6 +59,7 @@ class _AiSuggestScreenState extends ConsumerState<AiSuggestScreen> {
           ? const _EmptyFridge()
           : Column(
               children: [
+                const _SmartAiBanner(),
                 _MealSelector(
                   meals: _mealChoices,
                   selected: _meal,
@@ -75,6 +76,125 @@ class _AiSuggestScreenState extends ConsumerState<AiSuggestScreen> {
                 ),
               ],
             ),
+    );
+  }
+}
+
+/// Opt-in banner for the on-device Gemma (Smart AI) engine: triggers the
+/// one-time ~550 MB model download with progress, then a toggle to turn it
+/// on/off. Until enabled, the screen uses the offline heuristic.
+class _SmartAiBanner extends ConsumerWidget {
+  const _SmartAiBanner();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final theme = Theme.of(context);
+    final download = ref.watch(gemmaDownloadProvider);
+    final on = ref.watch(useRagEngineProvider);
+    final notifier = ref.read(gemmaDownloadProvider.notifier);
+
+    Widget body;
+    switch (download.phase) {
+      case GemmaPhase.downloading:
+        body = _BannerProgress(
+          label: 'Kinukuha ang AI model… ${download.percent}%',
+          value: download.percent / 100,
+        );
+      case GemmaPhase.loading:
+        body = const _BannerProgress(
+          label: 'Inihahanda ang AI…',
+          value: null,
+        );
+      case GemmaPhase.error:
+        body = Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(Icons.error_outline,
+                    color: AppColors.warning, size: 18),
+                const SizedBox(width: 8),
+                const Expanded(
+                  child: Text('Hindi na-load ang AI model.'),
+                ),
+                TextButton(
+                  onPressed: notifier.enable,
+                  child: const Text('Ulitin'),
+                ),
+              ],
+            ),
+            if (download.error != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 4),
+                child: Text(
+                  download.error!,
+                  style: theme.textTheme.bodySmall
+                      ?.copyWith(color: AppColors.warning),
+                ),
+              ),
+          ],
+        );
+      case GemmaPhase.ready:
+      case GemmaPhase.idle:
+        body = Row(
+          children: [
+            const Text('✨', style: TextStyle(fontSize: 20)),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Smart AI (Gemma)',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text(
+                    on
+                        ? 'Tumatakbo sa device — offline, libre'
+                        : 'Mas matalinong ranking · ~550MB isang beses',
+                    style: theme.textTheme.bodySmall,
+                  ),
+                ],
+              ),
+            ),
+            Switch(
+              value: on,
+              onChanged: (want) =>
+                  want ? notifier.enable() : notifier.disable(),
+            ),
+          ],
+        );
+    }
+
+    return Container(
+      margin: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(
+        color: AppColors.primary.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: AppColors.primary.withValues(alpha: 0.20)),
+      ),
+      child: body,
+    );
+  }
+}
+
+class _BannerProgress extends StatelessWidget {
+  const _BannerProgress({required this.label, required this.value});
+
+  final String label;
+  final double? value;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(label, style: Theme.of(context).textTheme.bodySmall),
+        const SizedBox(height: 8),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(6),
+          child: LinearProgressIndicator(value: value, minHeight: 6),
+        ),
+      ],
     );
   }
 }
@@ -200,7 +320,10 @@ class _SuggestionCard extends ConsumerWidget {
     if (!context.mounted) return;
     ScaffoldMessenger.of(context)
       ..hideCurrentSnackBar()
-      ..showSnackBar(SnackBar(content: Text(context.l10n.aiReportThanks)));
+      ..showSnackBar(SnackBar(
+        content: Text(context.l10n.aiReportThanks),
+        duration: const Duration(seconds: 3),
+      ));
   }
 
   @override
