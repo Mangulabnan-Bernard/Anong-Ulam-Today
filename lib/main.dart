@@ -29,7 +29,7 @@ Future<void> main() async {
   final recipes = await loadSeedRecipes();
   runApp(
     ProviderScope(
-      overrides: [recipesProvider.overrideWithValue(recipes)],
+      overrides: [seedRecipesProvider.overrideWithValue(recipes)],
       child: const AnongUlamApp(),
     ),
   );

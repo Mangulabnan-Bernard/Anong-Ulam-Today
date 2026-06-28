@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_ce/hive_ce.dart';
 
@@ -12,9 +14,58 @@ import 'fridge_provider.dart';
 // `matchRecipe`; the implementation now lives in the domain layer.
 export '../../domain/recipe_matching.dart' show matchRecipe;
 
-/// All available recipes. Defaults to the small mock seed; overridden in
-/// `main()` with the full JSON catalog (Sprint 4).
-final recipesProvider = Provider<List<Recipe>>((ref) => kMockRecipes);
+/// The seed catalog. Defaults to the small mock seed; overridden in `main()`
+/// with the full JSON catalog (Sprint 4).
+final seedRecipesProvider = Provider<List<Recipe>>((ref) => kMockRecipes);
+
+/// User-created recipes (ADD ULAM), persisted to Hive as JSON. Falls back to
+/// in-memory state when the box isn't open (e.g. pure-UI widget tests).
+class UserRecipesNotifier extends Notifier<List<Recipe>> {
+  Box<String>? get _box =>
+      Hive.isBoxOpen(userRecipesBoxName) ? userRecipesBox : null;
+
+  List<Recipe> _read(Box<String> box) => box.values
+      .map((s) => Recipe.fromJson(jsonDecode(s) as Map<String, dynamic>))
+      .toList();
+
+  @override
+  List<Recipe> build() {
+    final box = _box;
+    return box == null ? <Recipe>[] : _read(box);
+  }
+
+  void addRecipe(Recipe recipe) {
+    final box = _box;
+    if (box != null) {
+      box.put(recipe.id, jsonEncode(recipe.toJson()));
+      state = _read(box);
+    } else {
+      state = [...state, recipe];
+    }
+  }
+
+  void removeRecipe(String id) {
+    final box = _box;
+    if (box != null) {
+      box.delete(id);
+      state = _read(box);
+    } else {
+      state = state.where((r) => r.id != id).toList();
+    }
+  }
+}
+
+final userRecipesProvider =
+    NotifierProvider<UserRecipesNotifier, List<Recipe>>(
+  UserRecipesNotifier.new,
+);
+
+/// All recipes shown across the app: the seed catalog plus any user-created
+/// recipes. Newly added recipes appear everywhere that watches this.
+final recipesProvider = Provider<List<Recipe>>((ref) => [
+      ...ref.watch(seedRecipesProvider),
+      ...ref.watch(userRecipesProvider),
+    ]);
 
 /// All recipes matched against the fridge, sorted by best match first.
 final matchedRecipesProvider = Provider<List<RecipeMatch>>((ref) {

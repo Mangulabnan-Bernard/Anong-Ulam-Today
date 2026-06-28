@@ -36,6 +36,12 @@ class RecipeIngredient {
   final String name;
   final String quantity;
   final bool isOptional;
+
+  Map<String, dynamic> toJson() => {
+        'name': name,
+        'quantity': quantity,
+        'optional': isOptional,
+      };
 }
 
 /// Core recipe model.
@@ -105,4 +111,21 @@ class Recipe {
   final double rating;
   final int totalSaves;
   final String region;
+
+  /// Serializes to the same shape [Recipe.fromJson] reads, so user-created
+  /// recipes can be stored locally and round-tripped.
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'title': title,
+        'description': description,
+        'mealTypes': mealTypes.map((m) => m.name).toList(),
+        'difficulty': difficulty.name,
+        'cookingTimeMins': cookingTimeMins,
+        'ingredients': ingredients.map((i) => i.toJson()).toList(),
+        'instructions': instructions,
+        'emoji': emoji,
+        'rating': rating,
+        'totalSaves': totalSaves,
+        'region': region,
+      };
 }

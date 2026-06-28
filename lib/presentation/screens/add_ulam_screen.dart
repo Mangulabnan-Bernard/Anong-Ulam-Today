@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/l10n_helpers.dart';
 import '../../core/theme/app_colors.dart';
+import '../../data/models/recipe.dart';
+import '../providers/recipe_provider.dart';
 
-class AddUlamScreen extends StatefulWidget {
+class AddUlamScreen extends ConsumerStatefulWidget {
   const AddUlamScreen({super.key});
 
   @override
-  State<AddUlamScreen> createState() => _AddUlamScreenState();
+  ConsumerState<AddUlamScreen> createState() => _AddUlamScreenState();
 }
 
-class _AddUlamScreenState extends State<AddUlamScreen> {
+class _AddUlamScreenState extends ConsumerState<AddUlamScreen> {
   final _formKey = GlobalKey<FormState>();
   final _titleCtrl = TextEditingController();
   final _descCtrl = TextEditingController();
@@ -31,15 +34,63 @@ class _AddUlamScreenState extends State<AddUlamScreen> {
   }
 
   void _submit() {
-    if (_formKey.currentState?.validate() ?? false) {
-      ScaffoldMessenger.of(context).showSnackBar(
+    if (!(_formKey.currentState?.validate() ?? false)) return;
+
+    final ingredients = _ingredients
+        .map((c) => c.text.trim())
+        .where((t) => t.isNotEmpty)
+        .map((t) => RecipeIngredient(name: t, quantity: ''))
+        .toList();
+    final steps = _steps
+        .map((c) => c.text.trim())
+        .where((t) => t.isNotEmpty)
+        .toList();
+
+    final recipe = Recipe(
+      id: 'user_${DateTime.now().millisecondsSinceEpoch}',
+      title: _titleCtrl.text.trim(),
+      description: _descCtrl.text.trim(),
+      mealTypes: const [MealType.any],
+      difficulty: Difficulty.easy,
+      cookingTimeMins: 30,
+      ingredients: ingredients,
+      instructions: steps,
+      region: 'Sariling luto',
+    );
+
+    ref.read(userRecipesProvider.notifier).addRecipe(recipe);
+
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
         SnackBar(
           content: Text('${context.l10n.submitThanks} 🙏'),
           backgroundColor: AppColors.success,
+          duration: const Duration(seconds: 3),
         ),
       );
-      Navigator.of(context).maybePop();
+    _resetForm();
+  }
+
+  /// Clears the form back to a single empty ingredient/step so the user can
+  /// immediately add another dish (this screen is a tab, not a pushed route).
+  void _resetForm() {
+    _titleCtrl.clear();
+    _descCtrl.clear();
+    for (final c in _ingredients) {
+      c.dispose();
     }
+    for (final c in _steps) {
+      c.dispose();
+    }
+    setState(() {
+      _ingredients
+        ..clear()
+        ..add(TextEditingController());
+      _steps
+        ..clear()
+        ..add(TextEditingController());
+    });
   }
 
   @override

@@ -17,6 +17,10 @@ const String savedBoxName = 'saved_recipes';
 /// Weekly meal plan: a `Box<String>` keyed by day ('mon'..'sun') → recipe id.
 const String plannerBoxName = 'meal_planner';
 
+/// User-created recipes (ADD ULAM): a `Box<String>` keyed by recipe id, each
+/// value a JSON-encoded recipe. JSON strings avoid Hive's nested-map typing.
+const String userRecipesBoxName = 'user_recipes';
+
 /// One-time Hive bootstrap: init the engine, register adapters, and open the
 /// boxes the app reads synchronously later. Call once in `main()` before
 /// `runApp`, after `WidgetsFlutterBinding.ensureInitialized()`.
@@ -31,6 +35,7 @@ Future<void> initLocalStorage() async {
   await Hive.openBox(reportsBoxName);
   await Hive.openBox<String>(savedBoxName);
   await Hive.openBox<String>(plannerBoxName);
+  await Hive.openBox<String>(userRecipesBoxName);
 }
 
 /// The already-open fridge box. Safe to call synchronously anywhere after
@@ -45,3 +50,6 @@ Box<String> get savedBox => Hive.box<String>(savedBoxName);
 
 /// The already-open meal-planner box (day → recipe id).
 Box<String> get plannerBox => Hive.box<String>(plannerBoxName);
+
+/// The already-open user-recipes box (id → JSON-encoded recipe).
+Box<String> get userRecipesBox => Hive.box<String>(userRecipesBoxName);
