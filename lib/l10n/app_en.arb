@@ -116,12 +116,18 @@
   "undo": "Undo",
 
   "plannerTitle": "Meal Planner",
-  "plannerHint": "Plan your meals for the whole week. (Full feature: Sprint 8)",
+  "plannerHint": "Plan your meals for the whole week — tap a day to choose a dish.",
   "plannerNoMeal": "No meal planned yet",
   "plannerAddMeal": "Add a meal for {day} — soon!",
   "@plannerAddMeal": {
     "placeholders": { "day": { "type": "String" } }
   },
+  "plannerChooseDish": "Choose a dish for {day}",
+  "@plannerChooseDish": {
+    "placeholders": { "day": { "type": "String" } }
+  },
+  "plannerSearchDish": "Search dishes",
+  "plannerRemoveMeal": "Remove from plan",
 
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Add a Photo",

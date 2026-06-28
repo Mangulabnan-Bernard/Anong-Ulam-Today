@@ -116,12 +116,18 @@
   "undo": "I-undo",
 
   "plannerTitle": "Meal Planner",
-  "plannerHint": "Planuhin ang ulam para sa buong linggo. (Full feature: Sprint 8)",
+  "plannerHint": "Planuhin ang ulam para sa buong linggo — i-tap ang araw para pumili.",
   "plannerNoMeal": "Wala pang nakaplanong ulam",
   "plannerAddMeal": "Magdagdag ng ulam para sa {day} — soon!",
   "@plannerAddMeal": {
     "placeholders": { "day": { "type": "String" } }
   },
+  "plannerChooseDish": "Pumili ng ulam para sa {day}",
+  "@plannerChooseDish": {
+    "placeholders": { "day": { "type": "String" } }
+  },
+  "plannerSearchDish": "Maghanap ng ulam",
+  "plannerRemoveMeal": "Alisin sa plano",
 
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Magdagdag ng Litrato",
