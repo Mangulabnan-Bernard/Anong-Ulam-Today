@@ -13,6 +13,45 @@ class RecipeDetailScreen extends ConsumerWidget {
 
   final String recipeId;
 
+  /// Confirms then deletes a user-created recipe, leaving the detail screen.
+  Future<void> _confirmDelete(
+    BuildContext context,
+    WidgetRef ref,
+    String id,
+    String title,
+  ) async {
+    final l = context.l10n;
+    final messenger = ScaffoldMessenger.of(context);
+    final navigator = Navigator.of(context);
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l.deleteRecipe),
+        content: Text(l.deleteRecipeConfirm(title)),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: Text(l.cancel),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: TextButton.styleFrom(foregroundColor: AppColors.error),
+            child: Text(l.delete),
+          ),
+        ],
+      ),
+    );
+    if (confirmed != true) return;
+    ref.read(userRecipesProvider.notifier).removeRecipe(id);
+    navigator.pop();
+    messenger.showSnackBar(
+      SnackBar(
+        content: Text(l.recipeDeleted),
+        duration: const Duration(seconds: 3),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final recipes = ref.watch(recipesProvider);
@@ -40,6 +79,14 @@ class RecipeDetailScreen extends ConsumerWidget {
             pinned: true,
             backgroundColor: AppColors.primary,
             actions: [
+              if (recipe.id.startsWith('user_'))
+                IconButton(
+                  tooltip: l.deleteRecipe,
+                  icon: const Icon(Icons.delete_outline),
+                  color: Colors.white,
+                  onPressed: () =>
+                      _confirmDelete(context, ref, recipe.id, recipe.title),
+                ),
               IconButton(
                 icon: Icon(isSaved ? Icons.favorite : Icons.favorite_border),
                 color: Colors.white,

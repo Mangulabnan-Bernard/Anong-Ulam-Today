@@ -128,6 +128,14 @@
   },
   "plannerSearchDish": "Maghanap ng ulam",
   "plannerRemoveMeal": "Alisin sa plano",
+  "cancel": "Kanselahin",
+  "delete": "Burahin",
+  "deleteRecipe": "Burahin ang resipe",
+  "deleteRecipeConfirm": "Burahin ang \"{title}\"? Hindi na ito mababawi.",
+  "@deleteRecipeConfirm": {
+    "placeholders": { "title": { "type": "String" } }
+  },
+  "recipeDeleted": "Nabura ang resipe",
 
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Magdagdag ng Litrato",
