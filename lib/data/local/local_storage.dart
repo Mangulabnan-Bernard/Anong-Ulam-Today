@@ -10,6 +10,10 @@ const String fridgeBoxName = 'fridge';
 /// (PRD §4.3). Untyped box of `{recipeId, at}` maps — no adapter needed.
 const String reportsBoxName = 'wrong_dish_reports';
 
+/// Saved/favorited recipe ids, so favorites survive app restarts (like the
+/// fridge). Stored as a `Box<String>` keyed by recipe id (value == id).
+const String savedBoxName = 'saved_recipes';
+
 /// One-time Hive bootstrap: init the engine, register adapters, and open the
 /// boxes the app reads synchronously later. Call once in `main()` before
 /// `runApp`, after `WidgetsFlutterBinding.ensureInitialized()`.
@@ -22,6 +26,7 @@ Future<void> initLocalStorage() async {
 
   await Hive.openBox<Ingredient>(fridgeBoxName);
   await Hive.openBox(reportsBoxName);
+  await Hive.openBox<String>(savedBoxName);
 }
 
 /// The already-open fridge box. Safe to call synchronously anywhere after
@@ -30,3 +35,6 @@ Box<Ingredient> get fridgeBox => Hive.box<Ingredient>(fridgeBoxName);
 
 /// The already-open wrong-dish report box (local review queue).
 Box get reportsBox => Hive.box(reportsBoxName);
+
+/// The already-open saved-recipes box (favorited recipe ids).
+Box<String> get savedBox => Hive.box<String>(savedBoxName);

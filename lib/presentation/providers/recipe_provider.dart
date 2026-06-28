@@ -1,5 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hive_ce/hive_ce.dart';
 
+import '../../data/local/local_storage.dart';
 import '../../data/mock/mock_recipes.dart';
 import '../../data/models/recipe.dart';
 import '../../data/models/recipe_match.dart';
@@ -73,15 +75,30 @@ final filteredRecipesProvider = Provider<List<Recipe>>((ref) {
   }).toList();
 });
 
-/// IDs of saved/favorited recipes.
+/// IDs of saved/favorited recipes, persisted to Hive so favorites survive an
+/// app restart. Falls back to in-memory state when the box isn't open (e.g. in
+/// pure-UI widget tests), so the UI never depends on storage being initialized.
 class SavedRecipesNotifier extends Notifier<Set<String>> {
+  Box<String>? get _box =>
+      Hive.isBoxOpen(savedBoxName) ? savedBox : null;
+
   @override
-  Set<String> build() => {};
+  Set<String> build() => _box?.values.toSet() ?? <String>{};
 
   void toggle(String id) {
-    state = state.contains(id)
-        ? (state.toSet()..remove(id))
-        : (state.toSet()..add(id));
+    final box = _box;
+    if (box != null) {
+      if (box.containsKey(id)) {
+        box.delete(id);
+      } else {
+        box.put(id, id);
+      }
+      state = box.values.toSet();
+    } else {
+      state = state.contains(id)
+          ? (state.toSet()..remove(id))
+          : (state.toSet()..add(id));
+    }
   }
 
   bool isSaved(String id) => state.contains(id);
