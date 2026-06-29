@@ -154,11 +154,12 @@
   "votePickRandom": "Pick randomly",
   "voteAgain": "Vote again",
   "voteNewSession": "New vote",
+  "voteAddToPlanner": "Add to today's plan",
   "voteAddedToPlanner": "Added to today's plan",
 
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Add a Photo",
-  "imageUploadSoon": "Image upload — Sprint 6!",
+  "imageUploadSoon": "Image upload — coming soon!",
   "dishName": "Dish Name",
   "dishNameHint": "e.g. Lola's Chicken Adobo",
   "shortDescription": "Short Description",

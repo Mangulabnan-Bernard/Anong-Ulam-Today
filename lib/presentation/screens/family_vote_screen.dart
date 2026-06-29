@@ -348,7 +348,7 @@ class _FamilyVoteScreenState extends ConsumerState<FamilyVoteScreen> {
                   ));
               },
               icon: const Icon(Icons.calendar_today),
-              label: Text(l.voteAddedToPlanner),
+              label: Text(l.voteAddToPlanner),
               style: OutlinedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 48),
               ),

@@ -154,11 +154,12 @@
   "votePickRandom": "Pumili nang random",
   "voteAgain": "Ulitin ang boto",
   "voteNewSession": "Bagong botohan",
+  "voteAddToPlanner": "Idagdag sa plano ngayon",
   "voteAddedToPlanner": "Naidagdag sa plano ngayon",
 
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Magdagdag ng Litrato",
-  "imageUploadSoon": "Image upload — Sprint 6!",
+  "imageUploadSoon": "Image upload — malapit na!",
   "dishName": "Pangalan ng Ulam",
   "dishNameHint": "hal. Adobong Manok ni Lola",
   "shortDescription": "Maikling Paglalarawan",
