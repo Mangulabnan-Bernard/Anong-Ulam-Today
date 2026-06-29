@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 
 import '../../presentation/screens/ai_suggest_screen.dart';
+import '../../presentation/screens/family_vote_screen.dart';
 import '../../presentation/screens/main_scaffold.dart';
 import '../../presentation/screens/onboarding_screen.dart';
 import '../../presentation/screens/recipe_detail_screen.dart';
@@ -39,5 +40,8 @@ final appRouter = GoRouter(
     GoRoute(
         path: '/suggest',
         builder: (context, state) => const AiSuggestScreen()),
+    GoRoute(
+        path: '/vote',
+        builder: (context, state) => const FamilyVoteScreen()),
   ],
 );

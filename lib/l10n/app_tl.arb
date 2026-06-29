@@ -137,6 +137,25 @@
   },
   "recipeDeleted": "Nabura ang resipe",
 
+  "familyVoteTitle": "Botohan ng Pamilya",
+  "familyVoteCta": "Botohan ng Pamilya",
+  "votePickCandidates": "Pumili ng mga ulam na bobotohan",
+  "voteAddDish": "Magdagdag ng ulam",
+  "voteEmptyHint": "Magdagdag ng kahit 2 ulam, tapos simulan ang botohan.",
+  "voteStart": "Simulan ang botohan",
+  "voteTapHint": "Ipasa-pasa ang phone — i-tap ang ulam para bumoto!",
+  "voteReveal": "Ipakita ang panalo",
+  "voteCount": "{count} boto",
+  "@voteCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "voteWinner": "Nanalo!",
+  "voteTie": "Patas — pumili ng isa!",
+  "votePickRandom": "Pumili nang random",
+  "voteAgain": "Ulitin ang boto",
+  "voteNewSession": "Bagong botohan",
+  "voteAddedToPlanner": "Naidagdag sa plano ngayon",
+
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Magdagdag ng Litrato",
   "imageUploadSoon": "Image upload — Sprint 6!",

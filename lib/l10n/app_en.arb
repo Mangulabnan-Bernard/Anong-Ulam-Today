@@ -137,6 +137,25 @@
   },
   "recipeDeleted": "Recipe deleted",
 
+  "familyVoteTitle": "Family Vote",
+  "familyVoteCta": "Family Vote",
+  "votePickCandidates": "Pick the dishes to vote on",
+  "voteAddDish": "Add a dish",
+  "voteEmptyHint": "Add at least 2 dishes, then start the vote.",
+  "voteStart": "Start voting",
+  "voteTapHint": "Pass the phone around — tap a dish to vote!",
+  "voteReveal": "Reveal winner",
+  "voteCount": "{count} votes",
+  "@voteCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "voteWinner": "Winner!",
+  "voteTie": "It's a tie — pick one!",
+  "votePickRandom": "Pick randomly",
+  "voteAgain": "Vote again",
+  "voteNewSession": "New vote",
+  "voteAddedToPlanner": "Added to today's plan",
+
   "addUlamTitle": "ADD ULAM",
   "addPhoto": "Add a Photo",
   "imageUploadSoon": "Image upload — Sprint 6!",
